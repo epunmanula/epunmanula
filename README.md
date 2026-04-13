@@ -12,36 +12,28 @@
 
 ### 👨‍💻 About Me
 
-Welcome to my digital workspace! I'm a passionate developer focusing on creating efficient web solutions and utility applications. 
+Welcome to my digital workspace! I'm a passionate developer focusing on creating efficient web solutions and utility applications.
 
-- 🔭 Currently building: **TechSet** (Tech stream educational platform) & **UMSLTickets**
+- 🔭 Currently building & scaling: **TechSet** & **UMSLTickets**
 - 🌱 Constantly exploring new web technologies and frameworks.
 - ⚡ Fun fact: I also design and develop platforms for my electronic music artist alias!
 
 ---
 
-### 🚀 Live Projects & Portfolios
+### 🚀 Live Projects & Deployments
 
-Here are some of my recent web development projects and deployments:
+Here are my main web development projects and deployments:
 
+* 📚 **[TechSet](https://techseteka.gt.tc/)** - Student dashboard & learning resource center for Technology stream students.
+* 🎟️ **[UMSLTickets](https://umsltickets.online/)** - Electronic music ticketing platform.
 * 🌐 **[EM Me Focus](https://emmefocus.gt.tc/)** - A focused web application project.
 * 🎵 **[24K_Me Official Website](https://24kme.rf.gd/)** - Official artist website developed for my EDM alias.
 * 🔗 **[Link-in-Bio Platform](https://24kme.rf.gd/bio/)** - A custom built bio-link hub.
-* 🎟️ **UMSLTickets** - *(In Development)* Electronic music ticketing platform.
-* 📚 **TechSet** - *(In Development)* Student dashboard & learning resource center.
 
 ---
 
-### 🛠️ My Tech Stack
-
-<div align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=html,css,js,php,react,git,github,mysql,vscode&perline=9" alt="My Skills" />
-  </a>
-</div>
-
-<br>
-
+### ⏱️ This Week I Spent My Time On...
+*(WakaTime coding stats will appear here once we set up the advanced action)*
 ---
 
 ### 📈 GitHub Analytics
