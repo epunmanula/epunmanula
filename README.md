@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=250&section=header&text=EPUN%20MANULA&fontSize=50&animation=fadeIn&fontAlignY=38&desc=Web%20%26%20Software%20Developer&descAlignY=61&descAlign=62" alt="Header Banner" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=250&section=header&text=EPUN%20MANULA&fontSize=50&animation=fadeIn&fontAlignY=38&desc=Web%20and%20Software%20Developer&descAlignY=61&descAlign=62" alt="Header Banner" />
 </div>
 
 <p align="center">
