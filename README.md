@@ -1,42 +1,46 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=250&section=header&text=Epun%20Manula&fontSize=50&animation=fadeIn&fontAlignY=38&desc=Web%20%26%20Software%20Developer&descAlignY=61&descAlign=62" alt="Header Banner" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=250&section=header&text=EPUN%20MANULA&fontSize=50&animation=fadeIn&fontAlignY=38&desc=Web%20%26%20Software%20Developer&descAlignY=61&descAlign=62" alt="Header Banner" />
 </div>
 
 <p align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=20&pause=1000&color=2196F3&center=true&vCenter=true&width=550&lines=Building+Tools+%26+Educational+Platforms;Creator+of+TechSet+%26+UMSLTickets;Full-Stack+Web+Development;Problem+Solver" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=20&pause=1000&color=2196F3&center=true&vCenter=true&width=550&lines=Building+Tools+%26+Educational+Platforms;Creator+of+TechSet+%26+UMSLTickets;Full-Stack+Web+Development;EDM+Producer+(24K_Me)" alt="Typing SVG" />
   </a>
 </p>
 
 ---
 
-### 👨‍💻 About Me
+### 👨‍💻 About Me & My Work
 
-Welcome to my digital workspace! I'm a passionate developer focusing on creating efficient web solutions and utility applications.
+Welcome to my digital workspace! I'm a passionate developer from Sri Lanka focusing on creating efficient web solutions and utility applications.
 
-- 🔭 Currently building & scaling: **TechSet** & **UMSLTickets**
+- 🔭 Currently building & scaling: **[TechSet](https://techseteka.gt.tc/)** & **[UMSLTickets](https://umsltickets.online/)**
 - 🌱 Constantly exploring new web technologies and frameworks.
-- ⚡ Fun fact: I also design and develop platforms for my electronic music artist alias!
+- 🎵 Fun fact: I also design and develop platforms for my electronic music artist alias, **24K_Me**!
+
+---
+
+### 🛠️ Tech Stack & Tools
+
+<div align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=html,css,js,php,react,git,github,mysql,vscode,figma&perline=10" alt="My Skills" />
+  </a>
+</div>
 
 ---
 
 ### 🚀 Live Projects & Deployments
 
-Here are my main web development projects and deployments:
-
-* 📚 **[TechSet](https://techseteka.gt.tc/)** - Student dashboard & learning resource center for Technology stream students.
-* 🎟️ **[UMSLTickets](https://umsltickets.online/)** - Electronic music ticketing platform.
-* 🌐 **[EM Me Focus](https://emmefocus.gt.tc/)** - A focused web application project.
-* 🎵 **[24K_Me Official Website](https://24kme.rf.gd/)** - Official artist website developed for my EDM alias.
-* 🔗 **[Link-in-Bio Platform](https://24kme.rf.gd/bio/)** - A custom built bio-link hub.
+* 🎟️ [**UMSLTickets**](https://umsltickets.online/) - Electronic music ticketing platform.
+* 📚 [**TechSet**](https://techseteka.gt.tc/) - Student dashboard & resource center for Technology stream students.
+* 🌐 [**EM Me Focus**](https://emmefocus.gt.tc/) - A focused web application project.
+* 🎵 [**24K_Me Official Website**](https://24kme.rf.gd/) - Official artist website developed for my EDM alias.
+* 🔗 [**My New Link-in-Bio Hub**](https://epunmanula.rf.gd/bio.php) - Custom built bio-link platform.
 
 ---
 
-### ⏱️ This Week I Spent My Time On...
-*(WakaTime coding stats will appear here once we set up the advanced action)*
----
-
-### 📈 GitHub Analytics
+### 📈 GitHub Analytics & Coding Time
 
 <div align="center">
   <a href="https://github.com/anuraghazra/github-readme-stats">
@@ -47,12 +51,24 @@ Here are my main web development projects and deployments:
   </a>
 </div>
 
+<br>
+
+*(WakaTime stats will appear here once we set up the advanced action)*
 ---
 
 ### 📫 Let's Connect
 
 <div align="center">
-  <a href="https://24kme.rf.gd/bio/" target="_blank">
-    <img src="https://img.shields.io/badge/All_My_Links-%23000000.svg?style=for-the-badge&logo=linktree&logoColor=white" alt="My Links" />
+  <a href="https://epunmanula.rf.gd/bio.php" target="_blank">
+    <img src="https://img.shields.io/badge/All_My_Links-%23000000.svg?style=for-the-badge&logo=linktree&logoColor=white" alt="Bio Link" />
   </a>
+</div>
+<br>
+<div align="center">
+  <a href="LINK_EKA_METHANATA_DANNA" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="LINK_EKA_METHANATA_DANNA" target="_blank"><img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook" /></a>
+  <a href="LINK_EKA_METHANATA_DANNA" target="_blank"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" /></a>
+  <a href="https://youtube.com/@epun_manula" target="_blank"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube" /></a>
+  <a href="LINK_EKA_METHANATA_DANNA" target="_blank"><img src="https://img.shields.io/badge/Spotify-1ED760?style=for-the-badge&logo=spotify&logoColor=white" alt="Spotify" /></a>
+  <a href="LINK_EKA_METHANATA_DANNA" target="_blank"><img src="https://img.shields.io/badge/SoundCloud-FF3300?style=for-the-badge&logo=soundcloud&logoColor=white" alt="SoundCloud" /></a>
 </div>
