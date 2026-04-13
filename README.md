@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=000000,1DB954&height=250&section=header&text=EPUN%20MANULA&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Web%20and%20Software%20Developer&descAlignY=61&descAlign=62" alt="Header Banner" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=000000,1DB954,000000&height=250&section=header&text=EPUN%20MANULA&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Web%20and%20Software%20Developer&descAlignY=61&descAlign=62" alt="Header Banner" />
 </div>
 
 <div align="center">
@@ -79,10 +79,3 @@ Welcome to my digital workspace! I'm a passionate developer from Sri Lanka focus
   <a href="https://youtube.com/@epun_manula" target="_blank"><img src="https://img.shields.io/badge/YouTube-000000?style=for-the-badge&logo=youtube&logoColor=1DB954" alt="YouTube" /></a>
   <a href="https://soundcloud.com/epun_manula" target="_blank"><img src="https://img.shields.io/badge/SoundCloud-000000?style=for-the-badge&logo=soundcloud&logoColor=1DB954" alt="SoundCloud" /></a>
 </div>
-
----
-
-### 🚀 Live Projects & Deployments
-
-* 🎟️ [**UMSLTickets**](https://umsltickets.online/) - Electronic music ticketing platform.
-* 📚 [**TechSet
