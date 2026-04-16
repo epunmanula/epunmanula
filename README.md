@@ -45,6 +45,15 @@ Welcome to my digital workspace! I'm a passionate Software Developer from Sri La
 * 🔗 [**Link-in-Bio Hub**](https://epunmanula.rf.gd/bio.php) - My custom-built portfolio and central bio-link platform.
 
 ---
+---
+
+### 🐍 Contribution Activity
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake-dark.svg" alt="Snake Animation" />
+</div>
+
+---
 
 ### 📫 Let's Connect & Work Together
 
@@ -61,14 +70,6 @@ Welcome to my digital workspace! I'm a passionate Software Developer from Sri La
   <a href="https://www.instagram.com/epun_manula/" target="_blank"><img src="https://img.shields.io/badge/Instagram-000000?style=for-the-badge&logo=instagram&logoColor=1DB954" alt="Instagram" /></a>
   <a href="https://twitter.com/epun_manula" target="_blank"><img src="https://img.shields.io/badge/X_Twitter-000000?style=for-the-badge&logo=x&logoColor=1DB954" alt="X/Twitter" /></a>
   <a href="https://youtube.com/@epun_manula" target="_blank"><img src="https://img.shields.io/badge/YouTube-000000?style=for-the-badge&logo=youtube&logoColor=1DB954" alt="YouTube" /></a>
-</div>
-
----
-
-### 🐍 Contribution Activity
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake-dark.svg" alt="Snake Animation" />
 </div>
 
 ---
