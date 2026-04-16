@@ -18,7 +18,7 @@
 
 ### 👨‍💻 About Me & My Work
 
-Welcome to my digital workspace! I'm a passionate Software Developer from Sri Lanka, specializing in efficient web solutions and browser utilities. Currently, I am an A/L Technology stream student (ICT, SFT, ET) and eagerly preparing to begin my Software Engineering degree at NIBM.
+Welcome to my digital workspace! I'm a passionate Software Developer from Sri Lanka, specializing in efficient web solutions and browser utilities. Currently, 
 
 - 🌍 **Check out my portfolio & website:** **[epunmanula.rf.gd](https://epunmanula.rf.gd/portfolio)**
 - 🔭 Currently building & scaling: **[TechSet](https://techseteka.gt.tc/)**, **[UMSLTickets](https://umsltickets.online/)** & **EmmE Video Speed Master**
