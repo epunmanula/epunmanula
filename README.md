@@ -36,9 +36,17 @@ Welcome to my digital workspace! I'm a passionate Software Developer from Sri La
 
 ---
 
+### 🐍 Contribution Activity
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/epunmanula/epunmanula/output/github-contribution-grid-snake-dark.svg" alt="Snake Animation" />
+</div>
+
+---
+
 ### 🚀 Featured Projects & Extensions
 
-* ⚡ [**EmmE Video Speed Master**](https://emmevideospeedmaster.ct.ws/) - A powerful, lightweight Chrome extension offering absolute control over HTML5 video playback speeds with custom global hotkeys. *(Check out my pinned repo for the source code!)*
+* ⚡ [**EmmE Video Speed Master**](https://emmevideospeedmaster.ct.ws/) - A powerful, lightweight Chrome extension offering absolute control over HTML5 video playback speeds with custom global hotkeys.
 * 🎟️ [**UMSLTickets**](https://umsltickets.online/) - Custom online ticketing platform with secure payment gateway integration.
 * 📚 [**TechSet**](https://techseteka.gt.tc/) - A dedicated LMS and resource dashboard built for G.C.E A/L Technology students.
 * 🌐 [**EM Me Focus**](https://emmefocus.gt.tc/) - A custom web application project focused on productivity.
