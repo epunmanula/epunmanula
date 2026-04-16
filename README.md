@@ -20,6 +20,7 @@
 
 Welcome to my digital workspace! I'm a passionate Software Developer from Sri Lanka, specializing in efficient web solutions and browser utilities. Currently, I am an A/L Technology stream student (ICT, SFT, ET) and eagerly preparing to begin my Software Engineering degree at NIBM.
 
+- 🌍 **Check out my portfolio & website:** **[epunmanula.rf.gd](https://epunmanula.rf.gd/)**
 - 🔭 Currently building & scaling: **[TechSet](https://techseteka.gt.tc/)**, **[UMSLTickets](https://umsltickets.online/)** & **EmmE Video Speed Master**
 - 🌱 Constantly exploring React, PHP, and Web Automation.
 - ⚡ Fun fact: I love optimizing workflows and creating custom tools that make everyday tasks faster.
@@ -34,7 +35,7 @@ Welcome to my digital workspace! I'm a passionate Software Developer from Sri La
   </a>
 </div>
 
-
+---
 
 ### 🚀 Featured Projects & Extensions
 
@@ -44,7 +45,6 @@ Welcome to my digital workspace! I'm a passionate Software Developer from Sri La
 * 🌐 [**EM Me Focus**](https://emmefocus.gt.tc/) - A custom web application project focused on productivity.
 * 🔗 [**Link-in-Bio Hub**](https://epunmanula.rf.gd/bio.php) - My custom-built portfolio and central bio-link platform.
 
----
 ---
 
 ### 🐍 Contribution Activity
@@ -64,6 +64,7 @@ Welcome to my digital workspace! I'm a passionate Software Developer from Sri La
 </div>
 <br>
 <div align="center">
+  <a href="https://epunmanula.rf.gd/" target="_blank"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=googlechrome&logoColor=1DB954" alt="Portfolio" /></a>
   <a href="https://www.freelancer.com/u/epunmanula" target="_blank"><img src="https://img.shields.io/badge/Freelancer-000000?style=for-the-badge&logo=freelancer&logoColor=1DB954" alt="Freelancer" /></a>
   <a href="https://www.linkedin.com/in/epunmanula" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=1DB954" alt="LinkedIn" /></a>
   <a href="https://www.facebook.com/epunmanula/" target="_blank"><img src="https://img.shields.io/badge/Facebook-000000?style=for-the-badge&logo=facebook&logoColor=1DB954" alt="Facebook" /></a>
@@ -71,5 +72,3 @@ Welcome to my digital workspace! I'm a passionate Software Developer from Sri La
   <a href="https://twitter.com/epun_manula" target="_blank"><img src="https://img.shields.io/badge/X_Twitter-000000?style=for-the-badge&logo=x&logoColor=1DB954" alt="X/Twitter" /></a>
   <a href="https://youtube.com/@epun_manula" target="_blank"><img src="https://img.shields.io/badge/YouTube-000000?style=for-the-badge&logo=youtube&logoColor=1DB954" alt="YouTube" /></a>
 </div>
-
----
