@@ -20,7 +20,7 @@
 
 Welcome to my digital workspace! I'm a passionate Software Developer from Sri Lanka, specializing in efficient web solutions and browser utilities. Currently, I am an A/L Technology stream student (ICT, SFT, ET) and eagerly preparing to begin my Software Engineering degree at NIBM.
 
-- 🌍 **Check out my portfolio & website:** **[epunmanula.rf.gd](https://epunmanula.rf.gd/)**
+- 🌍 **Check out my portfolio & website:** **[epunmanula.rf.gd](https://epunmanula.rf.gd/portfolio)**
 - 🔭 Currently building & scaling: **[TechSet](https://techseteka.gt.tc/)**, **[UMSLTickets](https://umsltickets.online/)** & **EmmE Video Speed Master**
 - 🌱 Constantly exploring React, PHP, and Web Automation.
 - ⚡ Fun fact: I love optimizing workflows and creating custom tools that make everyday tasks faster.
