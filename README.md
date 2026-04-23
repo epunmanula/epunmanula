@@ -1,7 +1,7 @@
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=000000,1DB954,000000&height=250&section=header&text=EPUN%20MANULA&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Software%20Engineer%20%7C%20Web%20Developer&descAlignY=61&descAlign=62" alt="Header Banner" />
 </div>
- 
+  
 <div align="center">
   <a href="https://git.io/typing-svg">
     <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=16&pause=1000&color=1DB954&center=true&vCenter=true&width=600&lines=%3E_root@epunmanula:~%24+system.init();%3E_Executing+script:+Full_Stack_Dev.sh...;%3E_Loading+Tech_Stack:+A%2FL_ICT_SFT_ET...;%3E_Connection+Secure.+Access+Granted." alt="Terminal Boot SVG" />
