@@ -35,45 +35,46 @@ Welcome to my digital workspace! I'm a passionate Software Developer from Sri La
 
 <br/>
 
-<div align="center">
-  
-  <h4>💻 Frontend & Frameworks</h4>
-  <a href="https://epunmanula.rf.gd/portfolio" target="_blank"><img src="https://skillicons.dev/icons?i=html" alt="HTML5" height="48" /></a>
-  <a href="https://epunmanula.rf.gd/portfolio" target="_blank"><img src="https://skillicons.dev/icons?i=css" alt="CSS3" height="48" /></a>
-  <a href="https://epunmanula.rf.gd/portfolio" target="_blank"><img src="https://skillicons.dev/icons?i=js" alt="JavaScript" height="48" /></a>
-  <a href="https://epunmanula.rf.gd/portfolio" target="_blank"><img src="https://skillicons.dev/icons?i=react" alt="React" height="48" /></a>
-  <a href="https://epunmanula.rf.gd/portfolio" target="_blank"><img src="https://skillicons.dev/icons?i=nextjs" alt="Next.js" height="48" /></a>
-  <a href="https://epunmanula.rf.gd/portfolio" target="_blank"><img src="https://skillicons.dev/icons?i=tailwind" alt="Tailwind CSS" height="48" /></a>
-  
-  <br/><br/>
-  
-  <h4>⚙️ Backend & Frameworks</h4>
-  <a href="https://epunmanula.rf.gd/portfolio" target="_blank"><img src="https://skillicons.dev/icons?i=php" alt="PHP" height="48" /></a>
-  <a href="https://epunmanula.rf.gd/portfolio" target="_blank"><img src="https://skillicons.dev/icons?i=laravel" alt="Laravel" height="48" /></a>
-  <a href="https://epunmanula.rf.gd/portfolio" target="_blank"><img src="https://skillicons.dev/icons?i=nodejs" alt="Node.js" height="48" /></a>
-  <a href="https://epunmanula.rf.gd/portfolio" target="_blank"><img src="https://skillicons.dev/icons?i=express" alt="Express.js" height="48" /></a>
-  <a href="https://epunmanula.rf.gd/portfolio" target="_blank"><img src="https://skillicons.dev/icons?i=py" alt="Python" height="48" /></a>
-  
-  <br/><br/>
-  
-  <h4>🗄️ Databases, Cloud & DevOps</h4>
-  <a href="https://epunmanula.rf.gd/portfolio" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL" height="48" /></a>
-  <a href="https://epunmanula.rf.gd/portfolio" target="_blank"><img src="https://skillicons.dev/icons?i=aws" alt="AWS" height="48" /></a>
-  <a href="https://epunmanula.rf.gd/portfolio" target="_blank"><img src="https://innovahosting.net/storage/upload/cms/pages/47/z2Uikmn6KNy3MhR2u9hfED85hNyubTEFJU1m4ZEQ.png" alt="cPanel" height="48" /></a>
-  <a href="https://epunmanula.rf.gd/portfolio" target="_blank"><img src="https://skillicons.dev/icons?i=github" alt="GitHub" height="48" /></a>
-  <a href="https://epunmanula.rf.gd/portfolio" target="_blank"><img src="https://skillicons.dev/icons?i=ubuntu" alt="Ubuntu" height="48" /></a>
-  <a href="https://epunmanula.rf.gd/portfolio" target="_blank"><img src="https://skillicons.dev/icons?i=git" alt="Git" height="48" /></a>
-  
-  <br/><br/>
-  
-  <h4>🎨 Creative & Tools</h4>
-  <a href="https://epunmanula.rf.gd/portfolio" target="_blank"><img src="https://skillicons.dev/icons?i=figma" alt="Figma" height="48" /></a>
-  <a href="https://epunmanula.rf.gd/portfolio" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/canva/canva-original.svg" alt="Canva" height="48" /></a>
-  <a href="https://epunmanula.rf.gd/portfolio" target="_blank"><img src="https://epunmanula.rf.gd/assets/images/skills/skill_1779135215_3e057cc3.png" alt="FL Studio" height="48" /></a>
-  <a href="https://epunmanula.rf.gd/portfolio" target="_blank"><img src="https://static.vecteezy.com/system/resources/previews/067/065/640/non_2x/capcut-logo-square-rounded-capcut-logo-capcut-logo-free-download-free-png.png" alt="CapCut" height="48" /></a>
-  <a href="https://epunmanula.rf.gd/portfolio" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="VS Code" height="48" /></a>
-
-</div>
+<table align="center" border="0" cellpadding="15" cellspacing="0">
+  <tr>
+    <td align="center" valign="top" width="50%">
+      <h4>💻 Frontend & Frameworks</h4>
+      <a href="https://epunmanula.rf.gd/portfolio" target="_blank"><img src="https://skillicons.dev/icons?i=html" alt="HTML5" height="40" /></a>
+      <a href="https://epunmanula.rf.gd/portfolio" target="_blank"><img src="https://skillicons.dev/icons?i=css" alt="CSS3" height="40" /></a>
+      <a href="https://epunmanula.rf.gd/portfolio" target="_blank"><img src="https://skillicons.dev/icons?i=js" alt="JavaScript" height="40" /></a>
+      <a href="https://epunmanula.rf.gd/portfolio" target="_blank"><img src="https://skillicons.dev/icons?i=react" alt="React" height="40" /></a>
+      <a href="https://epunmanula.rf.gd/portfolio" target="_blank"><img src="https://skillicons.dev/icons?i=nextjs" alt="Next.js" height="40" /></a>
+      <a href="https://epunmanula.rf.gd/portfolio" target="_blank"><img src="https://skillicons.dev/icons?i=tailwind" alt="Tailwind CSS" height="40" /></a>
+    </td>
+    <td align="center" valign="top" width="50%">
+      <h4>⚙️ Backend & Frameworks</h4>
+      <a href="https://epunmanula.rf.gd/portfolio" target="_blank"><img src="https://skillicons.dev/icons?i=php" alt="PHP" height="40" /></a>
+      <a href="https://epunmanula.rf.gd/portfolio" target="_blank"><img src="https://skillicons.dev/icons?i=laravel" alt="Laravel" height="40" /></a>
+      <a href="https://epunmanula.rf.gd/portfolio" target="_blank"><img src="https://skillicons.dev/icons?i=nodejs" alt="Node.js" height="40" /></a>
+      <a href="https://epunmanula.rf.gd/portfolio" target="_blank"><img src="https://skillicons.dev/icons?i=express" alt="Express.js" height="40" /></a>
+      <a href="https://epunmanula.rf.gd/portfolio" target="_blank"><img src="https://skillicons.dev/icons?i=py" alt="Python" height="40" /></a>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" valign="top" width="50%">
+      <h4>🗄️ Databases, Cloud & DevOps</h4>
+      <a href="https://epunmanula.rf.gd/portfolio" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL" height="40" /></a>
+      <a href="https://epunmanula.rf.gd/portfolio" target="_blank"><img src="https://skillicons.dev/icons?i=aws" alt="AWS" height="40" /></a>
+      <a href="https://epunmanula.rf.gd/portfolio" target="_blank"><img src="https://innovahosting.net/storage/upload/cms/pages/47/z2Uikmn6KNy3MhR2u9hfED85hNyubTEFJU1m4ZEQ.png" alt="cPanel" height="40" /></a>
+      <a href="https://epunmanula.rf.gd/portfolio" target="_blank"><img src="https://skillicons.dev/icons?i=github" alt="GitHub" height="40" /></a>
+      <a href="https://epunmanula.rf.gd/portfolio" target="_blank"><img src="https://skillicons.dev/icons?i=ubuntu" alt="Ubuntu" height="40" /></a>
+      <a href="https://epunmanula.rf.gd/portfolio" target="_blank"><img src="https://skillicons.dev/icons?i=git" alt="Git" height="40" /></a>
+    </td>
+    <td align="center" valign="top" width="50%">
+      <h4>🎨 Creative & Tools</h4>
+      <a href="https://epunmanula.rf.gd/portfolio" target="_blank"><img src="https://skillicons.dev/icons?i=figma" alt="Figma" height="40" /></a>
+      <a href="https://epunmanula.rf.gd/portfolio" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/canva/canva-original.svg" alt="Canva" height="40" /></a>
+      <a href="https://epunmanula.rf.gd/portfolio" target="_blank"><img src="https://epunmanula.rf.gd/assets/images/skills/skill_1779135215_3e057cc3.png" alt="FL Studio" height="40" /></a>
+      <a href="https://epunmanula.rf.gd/portfolio" target="_blank"><img src="https://static.vecteezy.com/system/resources/previews/067/065/640/non_2x/capcut-logo-square-rounded-capcut-logo-capcut-logo-free-download-free-png.png" alt="CapCut" height="40" /></a>
+      <a href="https://epunmanula.rf.gd/portfolio" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="VS Code" height="40" /></a>
+    </td>
+  </tr>
+</table>
 
 ---
 
