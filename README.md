@@ -32,14 +32,38 @@ Welcome to my digital workspace! I'm a passionate Software Developer from Sri La
 - 🌱 Constantly exploring React, PHP, and Web Automation.
 - ⚡ Fun fact: I love optimizing workflows and creating custom tools that make everyday tasks faster.
 
----
-
 ### 🛠️ Tech Stack & Tools
 
+<br/>
+
 <div align="center">
+  
+  <h4>💻 Frontend & Frameworks</h4>
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=html,css,js,php,react,git,github,mysql,vscode,figma&perline=10" alt="My Skills" />
+    <img src="https://skillicons.dev/icons?i=html,css,js,react,nextjs,tailwind" alt="Frontend & Frameworks" />
   </a>
+  
+  <br/><br/>
+  
+  <h4>⚙️ Backend & Frameworks</h4>
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=php,laravel,nodejs,express,py" alt="Backend & Frameworks" />
+  </a>
+  
+  <br/><br/>
+  
+  <h4>🗄️ Databases, Cloud & DevOps</h4>
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=mysql,aws,cpanel,github,ubuntu,git" alt="Databases, Cloud & DevOps" />
+  </a>
+  
+  <br/><br/>
+  
+  <h4>🎨 Creative & Tools</h4>
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=figma,canva,flstudio,capcut,vscode" alt="Creative & Tools" />
+  </a>
+
 </div>
 
 ---
