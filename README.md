@@ -18,7 +18,6 @@
   <a href="https://committers.top/sri_lanka#EpunManula">
     <img src="https://user-badge.committers.top/sri_lanka/EpunManula.svg" alt="committers.top badge" />
   </a>
-  <img src="https://komarev.com/ghpvc/?username=epunmanula&color=1db954" alt="Profile Views" />
 </p>
  
 ---
@@ -112,4 +111,8 @@ Welcome to my digital workspace! I'm a passionate Software Developer from Sri La
   <a href="https://www.instagram.com/epun_manula/" target="_blank"><img src="https://img.shields.io/badge/Instagram-000000?style=for-the-badge&logo=instagram&logoColor=1DB954" alt="Instagram" /></a>
   <a href="https://twitter.com/epun_manula" target="_blank"><img src="https://img.shields.io/badge/X_Twitter-000000?style=for-the-badge&logo=x&logoColor=1DB954" alt="X/Twitter" /></a>
   <a href="https://youtube.com/@epun_manula" target="_blank"><img src="https://img.shields.io/badge/YouTube-000000?style=for-the-badge&logo=youtube&logoColor=1DB954" alt="YouTube" /></a>
+</div>
+<br>
+<div align="center">
+  <img src="https://komarev.com/ghpvc/?username=epunmanula&color=1db954" alt="Profile Views" />
 </div>
