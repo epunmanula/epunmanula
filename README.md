@@ -39,30 +39,40 @@ Welcome to my digital workspace! I'm a passionate Software Developer from Sri La
 <div align="center">
   
   <h4>💻 Frontend & Frameworks</h4>
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=html,css,js,react,nextjs,tailwind" alt="Frontend & Frameworks" />
-  </a>
+  <a href="https://epunmanula.rf.gd/portfolio" target="_blank"><img src="https://skillicons.dev/icons?i=html" alt="HTML5" height="48" /></a>
+  <a href="https://epunmanula.rf.gd/portfolio" target="_blank"><img src="https://skillicons.dev/icons?i=css" alt="CSS3" height="48" /></a>
+  <a href="https://epunmanula.rf.gd/portfolio" target="_blank"><img src="https://skillicons.dev/icons?i=js" alt="JavaScript" height="48" /></a>
+  <a href="https://epunmanula.rf.gd/portfolio" target="_blank"><img src="https://skillicons.dev/icons?i=react" alt="React" height="48" /></a>
+  <a href="https://epunmanula.rf.gd/portfolio" target="_blank"><img src="https://skillicons.dev/icons?i=nextjs" alt="Next.js" height="48" /></a>
+  <a href="https://epunmanula.rf.gd/portfolio" target="_blank"><img src="https://skillicons.dev/icons?i=tailwind" alt="Tailwind CSS" height="48" /></a>
   
   <br/><br/>
   
   <h4>⚙️ Backend & Frameworks</h4>
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=php,laravel,nodejs,express,py" alt="Backend & Frameworks" />
-  </a>
+  <a href="https://epunmanula.rf.gd/portfolio" target="_blank"><img src="https://skillicons.dev/icons?i=php" alt="PHP" height="48" /></a>
+  <a href="https://epunmanula.rf.gd/portfolio" target="_blank"><img src="https://skillicons.dev/icons?i=laravel" alt="Laravel" height="48" /></a>
+  <a href="https://epunmanula.rf.gd/portfolio" target="_blank"><img src="https://skillicons.dev/icons?i=nodejs" alt="Node.js" height="48" /></a>
+  <a href="https://epunmanula.rf.gd/portfolio" target="_blank"><img src="https://skillicons.dev/icons?i=express" alt="Express.js" height="48" /></a>
+  <a href="https://epunmanula.rf.gd/portfolio" target="_blank"><img src="https://skillicons.dev/icons?i=py" alt="Python" height="48" /></a>
   
   <br/><br/>
   
   <h4>🗄️ Databases, Cloud & DevOps</h4>
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=mysql,aws,cpanel,github,ubuntu,git" alt="Databases, Cloud & DevOps" />
-  </a>
+  <a href="https://epunmanula.rf.gd/portfolio" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL" height="48" /></a>
+  <a href="https://epunmanula.rf.gd/portfolio" target="_blank"><img src="https://skillicons.dev/icons?i=aws" alt="AWS" height="48" /></a>
+  <a href="https://epunmanula.rf.gd/portfolio" target="_blank"><img src="https://skillicons.dev/icons?i=cpanel" alt="cPanel" height="48" /></a>
+  <a href="https://epunmanula.rf.gd/portfolio" target="_blank"><img src="https://skillicons.dev/icons?i=github" alt="GitHub" height="48" /></a>
+  <a href="https://epunmanula.rf.gd/portfolio" target="_blank"><img src="https://skillicons.dev/icons?i=ubuntu" alt="Ubuntu" height="48" /></a>
+  <a href="https://epunmanula.rf.gd/portfolio" target="_blank"><img src="https://skillicons.dev/icons?i=git" alt="Git" height="48" /></a>
   
   <br/><br/>
   
   <h4>🎨 Creative & Tools</h4>
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=figma,canva,flstudio,capcut,vscode" alt="Creative & Tools" />
-  </a>
+  <a href="https://epunmanula.rf.gd/portfolio" target="_blank"><img src="https://skillicons.dev/icons?i=figma" alt="Figma" height="48" /></a>
+  <a href="https://epunmanula.rf.gd/portfolio" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/canva/canva-original.svg" alt="Canva" height="48" /></a>
+  <a href="https://epunmanula.rf.gd/portfolio" target="_blank"><img src="https://epunmanula.rf.gd/assets/images/skills/skill_1779135215_3e057cc3.png" alt="FL Studio" height="48" /></a>
+  <a href="https://epunmanula.rf.gd/portfolio" target="_blank"><img src="https://static.vecteezy.com/system/resources/previews/067/065/640/non_2x/capcut-logo-square-rounded-capcut-logo-capcut-logo-free-download-free-png.png" alt="CapCut" height="48" /></a>
+  <a href="https://epunmanula.rf.gd/portfolio" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="VS Code" height="48" /></a>
 
 </div>
 
