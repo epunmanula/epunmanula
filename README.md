@@ -60,7 +60,7 @@ Welcome to my digital workspace! I'm a passionate Software Developer from Sri La
   <h4>🗄️ Databases, Cloud & DevOps</h4>
   <a href="https://epunmanula.rf.gd/portfolio" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL" height="48" /></a>
   <a href="https://epunmanula.rf.gd/portfolio" target="_blank"><img src="https://skillicons.dev/icons?i=aws" alt="AWS" height="48" /></a>
-  <a href="https://epunmanula.rf.gd/portfolio" target="_blank"><img src="https://skillicons.dev/icons?i=cpanel" alt="cPanel" height="48" /></a>
+  <a href="https://epunmanula.rf.gd/portfolio" target="_blank"><img src="https://innovahosting.net/storage/upload/cms/pages/47/z2Uikmn6KNy3MhR2u9hfED85hNyubTEFJU1m4ZEQ.png" alt="cPanel" height="48" /></a>
   <a href="https://epunmanula.rf.gd/portfolio" target="_blank"><img src="https://skillicons.dev/icons?i=github" alt="GitHub" height="48" /></a>
   <a href="https://epunmanula.rf.gd/portfolio" target="_blank"><img src="https://skillicons.dev/icons?i=ubuntu" alt="Ubuntu" height="48" /></a>
   <a href="https://epunmanula.rf.gd/portfolio" target="_blank"><img src="https://skillicons.dev/icons?i=git" alt="Git" height="48" /></a>
