@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="epunmanula-banner.svg" alt="EPUN MANULA Banner" width="100%" />
+  <img src="epun-manula-banner.svg" alt="EPUN MANULA Banner" width="100%" />
 </div>
   
 <div align="center">

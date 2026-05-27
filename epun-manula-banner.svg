@@ -185,155 +185,199 @@
   <!-- Horizontal Scanline Effect -->
   <rect class="scanline" x="0" y="0" />
 
-  <!-- Surrounding Animated Icons (Inlined directly to guarantee rendering in GitHub markdown <img> tags) -->
+  <!-- Surrounding Animated Icons (Nested in Outer/Inner groups to prevent CSS keyframe transform overrides) -->
   
   <!-- Left Side Icons -->
   
   <!-- 1. PHP at (100, 220) -->
-  <g class="f1 glow-green" transform="translate(100, 220)">
-    <ellipse rx="22" ry="12" fill="none" stroke="#00ff88" stroke-width="2" />
-    <text x="0" y="4" font-family="'Fira Code', monospace" font-weight="900" font-size="11" fill="#00ff88" text-anchor="middle">php</text>
+  <g transform="translate(100, 220)">
+    <g class="f1 glow-green">
+      <ellipse rx="22" ry="12" fill="none" stroke="#00ff88" stroke-width="2" />
+      <text x="0" y="4" font-family="'Fira Code', monospace" font-weight="900" font-size="11" fill="#00ff88" text-anchor="middle">php</text>
+    </g>
   </g>
   
   <!-- 2. HTML5 at (120, 320) -->
-  <g class="f2 glow-green" transform="translate(120, 320)">
-    <path d="M-15,-18 L15,-18 L12,14 L0,20 L-12,14 Z" fill="none" stroke="#00ff88" stroke-width="2" />
-    <text x="0" y="-3" font-family="'Fira Code', monospace" font-weight="900" font-size="10" fill="#00ff88" text-anchor="middle">HTML</text>
-    <text x="0" y="9" font-family="'Fira Code', monospace" font-weight="900" font-size="12" fill="#00ff88" text-anchor="middle">5</text>
+  <g transform="translate(120, 320)">
+    <g class="f2 glow-green">
+      <path d="M-15,-18 L15,-18 L12,14 L0,20 L-12,14 Z" fill="none" stroke="#00ff88" stroke-width="2" />
+      <text x="0" y="-3" font-family="'Fira Code', monospace" font-weight="900" font-size="10" fill="#00ff88" text-anchor="middle">HTML</text>
+      <text x="0" y="9" font-family="'Fira Code', monospace" font-weight="900" font-size="12" fill="#00ff88" text-anchor="middle">5</text>
+    </g>
   </g>
   
   <!-- 3. CSS3 at (190, 180) -->
-  <g class="f3 glow-cyan" transform="translate(190, 180)">
-    <path d="M-15,-18 L15,-18 L12,14 L0,20 L-12,14 Z" fill="none" stroke="#00f0ff" stroke-width="2" />
-    <text x="0" y="-3" font-family="'Fira Code', monospace" font-weight="900" font-size="10" fill="#00f0ff" text-anchor="middle">CSS</text>
-    <text x="0" y="9" font-family="'Fira Code', monospace" font-weight="900" font-size="12" fill="#00f0ff" text-anchor="middle">3</text>
+  <g transform="translate(190, 180)">
+    <g class="f3 glow-cyan">
+      <path d="M-15,-18 L15,-18 L12,14 L0,20 L-12,14 Z" fill="none" stroke="#00f0ff" stroke-width="2" />
+      <text x="0" y="-3" font-family="'Fira Code', monospace" font-weight="900" font-size="10" fill="#00f0ff" text-anchor="middle">CSS</text>
+      <text x="0" y="9" font-family="'Fira Code', monospace" font-weight="900" font-size="12" fill="#00f0ff" text-anchor="middle">3</text>
+    </g>
   </g>
 
   <!-- 4. JavaScript at (250, 90) -->
-  <g class="f1 glow-green" transform="translate(250, 90)">
-    <rect x="-16" y="-16" width="32" height="32" rx="4" fill="none" stroke="#00ff88" stroke-width="2" />
-    <text x="6" y="10" font-family="'Fira Code', monospace" font-weight="900" font-size="15" fill="#00ff88" text-anchor="middle">JS</text>
+  <g transform="translate(250, 90)">
+    <g class="f1 glow-green">
+      <rect x="-16" y="-16" width="32" height="32" rx="4" fill="none" stroke="#00ff88" stroke-width="2" />
+      <text x="6" y="10" font-family="'Fira Code', monospace" font-weight="900" font-size="15" fill="#00ff88" text-anchor="middle">JS</text>
+    </g>
   </g>
 
   <!-- 5. React at (320, 160) -->
-  <g class="f2 glow-cyan" transform="translate(320, 160)">
-    <ellipse rx="22" ry="8" fill="none" stroke="#00f0ff" stroke-width="2" transform="rotate(0)" />
-    <ellipse rx="22" ry="8" fill="none" stroke="#00f0ff" stroke-width="2" transform="rotate(60)" />
-    <ellipse rx="22" ry="8" fill="none" stroke="#00f0ff" stroke-width="2" transform="rotate(120)" />
-    <circle r="4" fill="#00f0ff" />
+  <g transform="translate(320, 160)">
+    <g class="f2 glow-cyan">
+      <ellipse rx="22" ry="8" fill="none" stroke="#00f0ff" stroke-width="2" transform="rotate(0)" />
+      <ellipse rx="22" ry="8" fill="none" stroke="#00f0ff" stroke-width="2" transform="rotate(60)" />
+      <ellipse rx="22" ry="8" fill="none" stroke="#00f0ff" stroke-width="2" transform="rotate(120)" />
+      <circle r="4" fill="#00f0ff" />
+    </g>
   </g>
 
   <!-- 6. Next.js at (180, 120) -->
-  <g class="f3 glow-white" transform="translate(180, 120)">
-    <circle r="15" fill="none" stroke="#ffffff" stroke-width="2" />
-    <path d="M-6,7 L5,-6 M-6,-6 V6" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" />
-    <path d="M5,-6 V4" fill="none" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" />
+  <g transform="translate(180, 120)">
+    <g class="f3 glow-white">
+      <circle r="15" fill="none" stroke="#ffffff" stroke-width="2" />
+      <path d="M-6,7 L5,-6 M-6,-6 V6" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" />
+      <path d="M5,-6 V4" fill="none" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" />
+    </g>
   </g>
 
   <!-- 7. Tailwind CSS at (280, 270) -->
-  <g class="f1 glow-cyan" transform="translate(280, 270)">
-    <path d="M-15,0 C-10,-8 -3,-8 2,-2 C7,4 12,4 17,-2 C12,4 5,4 0,-2 C-5,-8 -10,-8 -15,0 Z M-17,6 C-12,-2 -5,-2 0,4 C5,10 10,10 15,4 C10,10 3,10 -2,4 C-7,-2 -12,-2 -17,6 Z" fill="none" stroke="#00f0ff" stroke-width="2" />
+  <g transform="translate(280, 270)">
+    <g class="f1 glow-cyan">
+      <path d="M-15,0 C-10,-8 -3,-8 2,-2 C7,4 12,4 17,-2 C12,4 5,4 0,-2 C-5,-8 -10,-8 -15,0 Z M-17,6 C-12,-2 -5,-2 0,4 C5,10 10,10 15,4 C10,10 3,10 -2,4 C-7,-2 -12,-2 -17,6 Z" fill="none" stroke="#00f0ff" stroke-width="2" />
+    </g>
   </g>
 
   <!-- 8. Laravel at (310, 370) -->
-  <g class="f2 glow-green" transform="translate(310, 370)">
-    <path d="M-12,-15 L0,-20 L12,-15 L12,5 L0,10 L-12,5 Z M0,-20 V10 M-12,-5 L0,0 L12,-5" fill="none" stroke="#00ff88" stroke-width="2" />
-    <text x="0" y="4" font-family="'Fira Code', monospace" font-size="10" font-weight="900" fill="#00ff88" text-anchor="middle">L</text>
+  <g transform="translate(310, 370)">
+    <g class="f2 glow-green">
+      <path d="M-12,-15 L0,-20 L12,-15 L12,5 L0,10 L-12,5 Z M0,-20 V10 M-12,-5 L0,0 L12,-5" fill="none" stroke="#00ff88" stroke-width="2" />
+      <text x="0" y="4" font-family="'Fira Code', monospace" font-size="10" font-weight="900" fill="#00ff88" text-anchor="middle">L</text>
+    </g>
   </g>
 
   <!-- 9. Node.js at (320, 90) -->
-  <g class="f3 glow-green" transform="translate(320, 90)">
-    <path d="M0,-18 L15,-9 L15,9 L0,18 L-15,9 L-15,-9 Z" fill="none" stroke="#00ff88" stroke-width="2" />
-    <text x="0" y="4" font-family="'Fira Code', monospace" font-weight="900" font-size="10" fill="#00ff88" text-anchor="middle">node</text>
+  <g transform="translate(320, 90)">
+    <g class="f3 glow-green">
+      <path d="M0,-18 L15,-9 L15,9 L0,18 L-15,9 L-15,-9 Z" fill="none" stroke="#00ff88" stroke-width="2" />
+      <text x="0" y="4" font-family="'Fira Code', monospace" font-weight="900" font-size="10" fill="#00ff88" text-anchor="middle">node</text>
+    </g>
   </g>
 
   <!-- 10. Express.js at (120, 90) -->
-  <g class="f1 glow-cyan" transform="translate(120, 90)">
-    <circle r="15" fill="none" stroke="#00f0ff" stroke-width="2" />
-    <text x="0" y="4" font-family="'Fira Code', monospace" font-size="10" font-weight="900" fill="#00f0ff" text-anchor="middle">ex</text>
+  <g transform="translate(120, 90)">
+    <g class="f1 glow-cyan">
+      <circle r="15" fill="none" stroke="#00f0ff" stroke-width="2" />
+      <text x="0" y="4" font-family="'Fira Code', monospace" font-size="10" font-weight="900" fill="#00f0ff" text-anchor="middle">ex</text>
+    </g>
   </g>
 
   <!-- 11. Python at (220, 330) -->
-  <g class="f2 glow-cyan" transform="translate(220, 330)">
-    <path d="M-5,-12 H2 C5,-12 6,-10 6,-7 V-4 H2 V-2 H-5 C-8,-2 -10,-4 -10,-7 V-9 C-10,-12 -8,-12 -5,-12 Z" fill="none" stroke="#00f0ff" stroke-width="2" />
-    <path d="M5,12 H-2 C-5,12 -6,10 -6,7 V-1 H-2 V-3 H5 C8,-3 10,-5 10,-8 V-6 C10,-3 8,12 5,12 Z" fill="none" stroke="#00f0ff" stroke-width="2" />
-    <circle cx="-2" cy="-8" r="1" fill="#00f0ff" />
-    <circle cx="2" cy="8" r="1" fill="#00f0ff" />
+  <g transform="translate(220, 330)">
+    <g class="f2 glow-cyan">
+      <path d="M-5,-12 H2 C5,-12 6,-10 6,-7 V-4 H2 V-2 H-5 C-8,-2 -10,-4 -10,-7 V-9 C-10,-12 -8,-12 -5,-12 Z" fill="none" stroke="#00f0ff" stroke-width="2" />
+      <path d="M5,12 H-2 C-5,12 -6,10 -6,7 V-1 H-2 V-3 H5 C8,-3 10,-5 10,-8 V-6 C10,-3 8,12 5,12 Z" fill="none" stroke="#00f0ff" stroke-width="2" />
+      <circle cx="-2" cy="-8" r="1" fill="#00f0ff" />
+      <circle cx="2" cy="8" r="1" fill="#00f0ff" />
+    </g>
   </g>
 
   <!-- Right Side Icons -->
 
   <!-- 12. MySQL at (680, 170) -->
-  <g class="f1 glow-cyan" transform="translate(680, 170)">
-    <text x="0" y="6" font-family="'Fira Code', monospace" font-weight="900" font-size="9" fill="#00f0ff" text-anchor="middle">SQL</text>
-    <path d="M-13,8 C-9,6 -5,1 -7,-7 C-7,-7 -3,-3 1,-3 C3.5,-3 6,-5.5 8,-9 C8,-9 7.5,-4.5 5,-1.5 C3.5,1 0.5,3.5 -3,4 L-6,9.5 Z" fill="none" stroke="#00f0ff" stroke-width="1.5" />
+  <g transform="translate(680, 170)">
+    <g class="f1 glow-cyan">
+      <text x="0" y="6" font-family="'Fira Code', monospace" font-weight="900" font-size="9" fill="#00f0ff" text-anchor="middle">SQL</text>
+      <path d="M-13,8 C-9,6 -5,1 -7,-7 C-7,-7 -3,-3 1,-3 C3.5,-3 6,-5.5 8,-9 C8,-9 7.5,-4.5 5,-1.5 C3.5,1 0.5,3.5 -3,4 L-6,9.5 Z" fill="none" stroke="#00f0ff" stroke-width="1.5" />
+    </g>
   </g>
 
   <!-- 13. AWS at (880, 340) -->
-  <g class="f2 glow-green" transform="translate(880, 340)">
-    <text x="0" y="-2" font-family="'Fira Code', monospace" font-weight="900" font-size="12" fill="#00ff88" text-anchor="middle">aws</text>
-    <path d="M-13,5 Q0,12 13,5" fill="none" stroke="#00ff88" stroke-width="1.5" stroke-linecap="round" />
-    <path d="M9,6 L13,5 L12,9" fill="none" stroke="#00ff88" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+  <g transform="translate(880, 340)">
+    <g class="f2 glow-green">
+      <text x="0" y="-2" font-family="'Fira Code', monospace" font-weight="900" font-size="12" fill="#00ff88" text-anchor="middle">aws</text>
+      <path d="M-13,5 Q0,12 13,5" fill="none" stroke="#00ff88" stroke-width="1.5" stroke-linecap="round" />
+      <path d="M9,6 L13,5 L12,9" fill="none" stroke="#00ff88" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+    </g>
   </g>
 
   <!-- 14. cPanel at (780, 90) -->
-  <g class="f3 glow-green" transform="translate(780, 90)">
-    <circle r="14" fill="none" stroke="#00ff88" stroke-width="2" />
-    <text x="0" y="4" font-family="'Fira Code', monospace" font-weight="900" font-size="11" fill="#00ff88" text-anchor="middle">cP</text>
+  <g transform="translate(780, 90)">
+    <g class="f3 glow-green">
+      <circle r="14" fill="none" stroke="#00ff88" stroke-width="2" />
+      <text x="0" y="4" font-family="'Fira Code', monospace" font-weight="900" font-size="11" fill="#00ff88" text-anchor="middle">cP</text>
+    </g>
   </g>
 
   <!-- 15. Github at (740, 330) -->
-  <g class="f1 glow-green" transform="translate(740, 330)">
-    <path d="M0,-18 C-10,-18 -18,-10 -18,0 C-18,8 -13,15 -6,17 C-5,17 -5,17 -5,16 C-5,15 -5,13 -5,11 C-10,12 -11,9 -11,9 C-12,7 -13,7 -13,7 C-14,6 -13,6 -13,6 C-11,6 -10,8 -10,8 C-9,10 -7,9 -6,9 C-6,7 -5,6 -5,6 C-9,5 -13,4 -13,-3 C-13,-5 -12,-7 -11,-8 C-11,-8 -12,-10 -11,-12 C-11,-12 -9,-11 -5,-8 C-3,-9 0,-9 3,-8 C7,-11 9,-12 9,-12 C10,-10 9,-8 9,-8 C10,-7 11,-5 11,-3 C11,4 7,5 3,6 C4,7 4,9 4,11 C4,13 4,15 4,16 C4,17 4,17 5,17 C12,15 17,8 17,0 C17,-10 9,-18 0,-18 Z" fill="none" stroke="#00ff88" stroke-width="2" />
+  <g transform="translate(740, 330)">
+    <g class="f1 glow-green">
+      <path d="M0,-18 C-10,-18 -18,-10 -18,0 C-18,8 -13,15 -6,17 C-5,17 -5,17 -5,16 C-5,15 -5,13 -5,11 C-10,12 -11,9 -11,9 C-12,7 -13,7 -13,7 C-14,6 -13,6 -13,6 C-11,6 -10,8 -10,8 C-9,10 -7,9 -6,9 C-6,7 -5,6 -5,6 C-9,5 -13,4 -13,-3 C-13,-5 -12,-7 -11,-8 C-11,-8 -12,-10 -11,-12 C-11,-12 -9,-11 -5,-8 C-3,-9 0,-9 3,-8 C7,-11 9,-12 9,-12 C10,-10 9,-8 9,-8 C10,-7 11,-5 11,-3 C11,4 7,5 3,6 C4,7 4,9 4,11 C4,13 4,15 4,16 C4,17 4,17 5,17 C12,15 17,8 17,0 C17,-10 9,-18 0,-18 Z" fill="none" stroke="#00ff88" stroke-width="2" />
+    </g>
   </g>
 
   <!-- 16. Ubuntu at (620, 340) -->
-  <g class="f2 glow-cyan" transform="translate(620, 340)">
-    <circle r="15" fill="none" stroke="#00f0ff" stroke-width="2" />
-    <circle cx="-10" cy="0" r="2" fill="#00f0ff" />
-    <circle cx="5" cy="8.6" r="2" fill="#00f0ff" />
-    <circle cx="5" cy="-8.6" r="2" fill="#00f0ff" />
-    <path d="M-5,-5 A7,7 0 0,1 5,-5 M5,5 A7,7 0 0,1 -5,5 M-7,0 A7,7 0 0,1 -7,-1" fill="none" stroke="#00f0ff" stroke-width="1.5" />
+  <g transform="translate(620, 340)">
+    <g class="f2 glow-cyan">
+      <circle r="15" fill="none" stroke="#00f0ff" stroke-width="2" />
+      <circle cx="-10" cy="0" r="2" fill="#00f0ff" />
+      <circle cx="5" cy="8.6" r="2" fill="#00f0ff" />
+      <circle cx="5" cy="-8.6" r="2" fill="#00f0ff" />
+      <path d="M-5,-5 A7,7 0 0,1 5,-5 M5,5 A7,7 0 0,1 -5,5 M-7,0 A7,7 0 0,1 -7,-1" fill="none" stroke="#00f0ff" stroke-width="1.5" />
+    </g>
   </g>
 
   <!-- 17. Git at (900, 100) -->
-  <g class="f3 glow-green" transform="translate(900, 100)">
-    <rect x="-10" y="-10" width="20" height="20" transform="rotate(45)" fill="none" stroke="#00ff88" stroke-width="2" />
-    <circle cx="0" cy="-6" r="2.5" fill="#00ff88" />
-    <circle cx="6" cy="0" r="2.5" fill="#00ff88" />
-    <circle cx="-6" cy="6" r="2.5" fill="#00ff88" />
-    <path d="M-6,6 L6,0 M0,-6 V6" fill="none" stroke="#00ff88" stroke-width="2" />
+  <g transform="translate(900, 100)">
+    <g class="f3 glow-green">
+      <rect x="-10" y="-10" width="20" height="20" transform="rotate(45)" fill="none" stroke="#00ff88" stroke-width="2" />
+      <circle cx="0" cy="-6" r="2.5" fill="#00ff88" />
+      <circle cx="6" cy="0" r="2.5" fill="#00ff88" />
+      <circle cx="-6" cy="6" r="2.5" fill="#00ff88" />
+      <path d="M-6,6 L6,0 M0,-6 V6" fill="none" stroke="#00ff88" stroke-width="2" />
+    </g>
   </g>
 
   <!-- 18. Figma at (680, 280) -->
-  <g class="f1 glow-cyan" transform="translate(680, 280)">
-    <path d="M-8,-12 C-8,-12 -8,-6 -2,-6 C-2,-6 -2,-12 -8,-12 Z M-2,-12 C-2,-12 4,-12 4,-6 C4,-6 -2,-6 -2,-12 Z M-8,-6 C-8,-6 -8,0 -2,0 C-2,0 -2,-6 -8,-6 Z M-2,-6 C-2,-6 4,-6 4,0 C4,0 -2,0 -2,-6 Z M-8,0 C-8,0 -8,6 -8,12 C-8,12 -2,12 -2,6 C-2,0 -8,0 -8,0 Z" fill="none" stroke="#00f0ff" stroke-width="2" />
+  <g transform="translate(680, 280)">
+    <g class="f1 glow-cyan">
+      <path d="M-8,-12 C-8,-12 -8,-6 -2,-6 C-2,-6 -2,-12 -8,-12 Z M-2,-12 C-2,-12 4,-12 4,-6 C4,-6 -2,-6 -2,-12 Z M-8,-6 C-8,-6 -8,0 -2,0 C-2,0 -2,-6 -8,-6 Z M-2,-6 C-2,-6 4,-6 4,0 C4,0 -2,0 -2,-6 Z M-8,0 C-8,0 -8,6 -8,12 C-8,12 -2,12 -2,6 C-2,0 -8,0 -8,0 Z" fill="none" stroke="#00f0ff" stroke-width="2" />
+    </g>
   </g>
 
   <!-- 19. Canva at (780, 200) -->
-  <g class="f2 glow-cyan" transform="translate(780, 200)">
-    <circle r="15" fill="none" stroke="#00f0ff" stroke-width="2" />
-    <text x="0" y="4" font-family="'Fira Code', monospace" font-weight="900" font-size="12" fill="#00f0ff" text-anchor="middle">C</text>
+  <g transform="translate(780, 200)">
+    <g class="f2 glow-cyan">
+      <circle r="15" fill="none" stroke="#00f0ff" stroke-width="2" />
+      <text x="0" y="4" font-family="'Fira Code', monospace" font-weight="900" font-size="12" fill="#00f0ff" text-anchor="middle">C</text>
+    </g>
   </g>
 
   <!-- 20. FL Studio at (920, 230) -->
-  <g class="f3 glow-green" transform="translate(920, 230)">
-    <path d="M0,-14 C4,-14 10,-9.5 10,-2 C10,5 4,12 0,12 C-4,12 -10,5 -10,-2 C-10,-9.5 -4,-14 0,-14 Z M0,-14 C-1.5,-16.5 -5,-16.5 -5,-16.5 C-5,-16.5 -2.5,-13 0,-11 Z" fill="none" stroke="#00ff88" stroke-width="2" />
+  <g transform="translate(920, 230)">
+    <g class="f3 glow-green">
+      <path d="M0,-14 C4,-14 10,-9.5 10,-2 C10,5 4,12 0,12 C-4,12 -10,5 -10,-2 C-10,-9.5 -4,-14 0,-14 Z M0,-14 C-1.5,-16.5 -5,-16.5 -5,-16.5 C-5,-16.5 -2.5,-13 0,-11 Z" fill="none" stroke="#00ff88" stroke-width="2" />
+    </g>
   </g>
 
   <!-- 21. Capcut at (820, 150) -->
-  <g class="f1 glow-white" transform="translate(820, 150)">
-    <polygon points="-12,-12 12,-12 12,12 -12,12" fill="none" stroke="#ffffff" stroke-width="2" />
-    <polygon points="-4,-6 6,0 -4,6" fill="none" stroke="#ffffff" stroke-width="2" stroke-linejoin="round" />
-    <circle cx="-8" cy="-8" r="1.5" fill="#ffffff" />
-    <circle cx="8" cy="-8" r="1.5" fill="#ffffff" />
-    <circle cx="-8" cy="8" r="1.5" fill="#ffffff" />
-    <circle cx="8" cy="8" r="1.5" fill="#ffffff" />
+  <g transform="translate(820, 150)">
+    <g class="f1 glow-white">
+      <polygon points="-12,-12 12,-12 12,12 -12,12" fill="none" stroke="#ffffff" stroke-width="2" />
+      <polygon points="-4,-6 6,0 -4,6" fill="none" stroke="#ffffff" stroke-width="2" stroke-linejoin="round" />
+      <circle cx="-8" cy="-8" r="1.5" fill="#ffffff" />
+      <circle cx="8" cy="-8" r="1.5" fill="#ffffff" />
+      <circle cx="-8" cy="8" r="1.5" fill="#ffffff" />
+      <circle cx="8" cy="8" r="1.5" fill="#ffffff" />
+    </g>
   </g>
 
   <!-- 22. VS Code at (600, 90) -->
-  <g class="f2 glow-cyan" transform="translate(600, 90)">
-    <path d="M-15,-10 L-8,-16 L15,-8 L5,0 L15,8 L-8,16 L-15,10 Z" fill="none" stroke="#00f0ff" stroke-width="2" />
-    <path d="M-15,-10 L5,0 L-15,10 M-8,-16 L-8,16" fill="none" stroke="#00f0ff" stroke-width="1.5" />
+  <g transform="translate(600, 90)">
+    <g class="f2 glow-cyan">
+      <path d="M-15,-10 L-8,-16 L15,-8 L5,0 L15,8 L-8,16 L-15,10 Z" fill="none" stroke="#00f0ff" stroke-width="2" />
+      <path d="M-15,-10 L5,0 L-15,10 M-8,-16 L-8,16" fill="none" stroke="#00f0ff" stroke-width="1.5" />
+    </g>
   </g>
 </svg>
