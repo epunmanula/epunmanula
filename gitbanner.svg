@@ -1,0 +1,373 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 420" width="100%" height="100%">
+  <defs>
+    <!-- Glow Filters -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="5" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <filter id="glow-strong" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="12" result="blur1" />
+      <feGaussianBlur stdDeviation="5" result="blur2" />
+      <feMerge>
+        <feMergeNode in="blur1" />
+        <feMergeNode in="blur2" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <!-- Wireframe Neon Icons -->
+    <g id="icon-react">
+      <ellipse rx="22" ry="8" fill="none" stroke="#00f0ff" stroke-width="2" transform="rotate(0)" />
+      <ellipse rx="22" ry="8" fill="none" stroke="#00f0ff" stroke-width="2" transform="rotate(60)" />
+      <ellipse rx="22" ry="8" fill="none" stroke="#00f0ff" stroke-width="2" transform="rotate(120)" />
+      <circle r="4" fill="#00f0ff" />
+    </g>
+
+    <g id="icon-html">
+      <path d="M-15,-18 L15,-18 L12,14 L0,20 L-12,14 Z" fill="none" stroke="#00ff88" stroke-width="2" />
+      <text x="0" y="-3" font-family="'Fira Code', monospace" font-weight="900" font-size="10" fill="#00ff88" text-anchor="middle">HTML</text>
+      <text x="0" y="9" font-family="'Fira Code', monospace" font-weight="900" font-size="12" fill="#00ff88" text-anchor="middle">5</text>
+    </g>
+
+    <g id="icon-css">
+      <path d="M-15,-18 L15,-18 L12,14 L0,20 L-12,14 Z" fill="none" stroke="#00f0ff" stroke-width="2" />
+      <text x="0" y="-3" font-family="'Fira Code', monospace" font-weight="900" font-size="10" fill="#00f0ff" text-anchor="middle">CSS</text>
+      <text x="0" y="9" font-family="'Fira Code', monospace" font-weight="900" font-size="12" fill="#00f0ff" text-anchor="middle">3</text>
+    </g>
+
+    <g id="icon-js">
+      <rect x="-16" y="-16" width="32" height="32" rx="4" fill="none" stroke="#00ff88" stroke-width="2" />
+      <text x="6" y="10" font-family="'Fira Code', monospace" font-weight="900" font-size="15" fill="#00ff88" text-anchor="middle">JS</text>
+    </g>
+
+    <g id="icon-node">
+      <path d="M0,-18 L15,-9 L15,9 L0,18 L-15,9 L-15,-9 Z" fill="none" stroke="#00f0ff" stroke-width="2" />
+      <text x="0" y="4" font-family="'Fira Code', monospace" font-weight="900" font-size="10" fill="#00f0ff" text-anchor="middle">node</text>
+    </g>
+
+    <g id="icon-github">
+      <path d="M0,-18 C-10,-18 -18,-10 -18,0 C-18,8 -13,15 -6,17 C-5,17 -5,17 -5,16 C-5,15 -5,13 -5,11 C-10,12 -11,9 -11,9 C-12,7 -13,7 -13,7 C-14,6 -13,6 -13,6 C-11,6 -10,8 -10,8 C-9,10 -7,9 -6,9 C-6,7 -5,6 -5,6 C-9,5 -13,4 -13,-3 C-13,-5 -12,-7 -11,-8 C-11,-8 -12,-10 -11,-12 C-11,-12 -9,-11 -5,-8 C-3,-9 0,-9 3,-8 C7,-11 9,-12 9,-12 C10,-10 9,-8 9,-8 C10,-7 11,-5 11,-3 C11,4 7,5 3,6 C4,7 4,9 4,11 C4,13 4,15 4,16 C4,17 4,17 5,17 C12,15 17,8 17,0 C17,-10 9,-18 0,-18 Z" fill="none" stroke="#00ff88" stroke-width="2" />
+    </g>
+
+    <g id="icon-vscode">
+      <path d="M-15,-10 L-8,-16 L15,-8 L5,0 L15,8 L-8,16 L-15,10 Z" fill="none" stroke="#00f0ff" stroke-width="2" />
+      <path d="M-15,-10 L5,0 L-15,10 M-8,-16 L-8,16" fill="none" stroke="#00f0ff" stroke-width="1.5" />
+    </g>
+
+    <g id="icon-php">
+      <ellipse rx="22" ry="12" fill="none" stroke="#00ff88" stroke-width="2" />
+      <text x="0" y="4" font-family="'Fira Code', monospace" font-weight="900" font-size="11" fill="#00ff88" text-anchor="middle">php</text>
+    </g>
+
+    <g id="icon-spotify">
+      <circle r="16" fill="none" stroke="#00ff88" stroke-width="2" />
+      <path d="M-9,-4 Q0,-7 9,-4 M-7.5,1 Q0,-2.5 7.5,1 M-6.5,5.5 Q0,3 6.5,5.5" fill="none" stroke="#00ff88" stroke-width="2" stroke-linecap="round" />
+    </g>
+
+    <g id="icon-discord">
+      <path d="M-13,-8 C-13,-8 -10.5,-10.5 -6,-11.5 C-6,-11.5 -7,-10 -7,-8.5 C-3,-9.5 3,-9.5 7,-8.5 C7,-10 6,-11.5 6,-11.5 C10.5,-10.5 13,-8 13,-8 C13,-4 11.5,4 6,9.5 C3.5,11 0,11 0,11 L-1.5,8.5 C1.5,7.5 3,6 4,4.5 C1.5,5.5 -1.5,6 -4,6 C-6.5,6 -9.5,5.5 -12,4.5 C-11,6 -9.5,7.5 -6.5,8.5 L-8,11 C-8,11 -11.5,11 -14,9.5 C-19.5,4 -18,-4 -18,-8 Z" fill="none" stroke="#00f0ff" stroke-width="2" stroke-linejoin="round" />
+      <circle cx="-4.5" cy="-1.5" r="1.5" fill="#00f0ff" />
+      <circle cx="4.5" cy="-1.5" r="1.5" fill="#00f0ff" />
+    </g>
+
+    <g id="icon-aws">
+      <text x="0" y="-2" font-family="'Fira Code', monospace" font-weight="900" font-size="12" fill="#00ff88" text-anchor="middle">aws</text>
+      <path d="M-13,5 Q0,12 13,5" fill="none" stroke="#00ff88" stroke-width="1.5" stroke-linecap="round" />
+      <path d="M9,6 L13,5 L12,9" fill="none" stroke="#00ff88" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+    </g>
+
+    <g id="icon-mysql">
+      <text x="0" y="6" font-family="'Fira Code', monospace" font-weight="900" font-size="9" fill="#00f0ff" text-anchor="middle">SQL</text>
+      <path d="M-13,8 C-9,6 -5,1 -7,-7 C-7,-7 -3,-3 1,-3 C3.5,-3 6,-5.5 8,-9 C8,-9 7.5,-4.5 5,-1.5 C3.5,1 0.5,3.5 -3,4 L-6,9.5 Z" fill="none" stroke="#00f0ff" stroke-width="1.5" />
+    </g>
+
+    <g id="icon-facebook">
+      <rect x="-14" y="-14" width="28" height="28" rx="4" fill="none" stroke="#00f0ff" stroke-width="2" />
+      <path d="M4,-14 L1,-14 C-1.5,-14 -2,-12 -2,-9.5 L-2,-5 L-4.5,-5 L-4.5,-1.5 L-2,-1.5 L-2,14 L2.5,14 L2.5,-1.5 L6,-1.5 L6.5,-5 L2.5,-5 L2.5,-8.5 C2.5,-9.5 3,-10.5 4,-10.5 L6,-10.5 Z" fill="none" stroke="#00f0ff" stroke-width="2" stroke-linejoin="round" />
+    </g>
+
+    <g id="icon-youtube">
+      <rect x="-16" y="-12" width="32" height="24" rx="6" fill="none" stroke="#00ff88" stroke-width="2" />
+      <polygon points="-3.5,-4.5 5.5,0 -3.5,4.5" fill="none" stroke="#00ff88" stroke-width="2" stroke-linejoin="round" />
+    </g>
+
+    <g id="icon-instagram">
+      <rect x="-14" y="-14" width="28" height="28" rx="7" fill="none" stroke="#00f0ff" stroke-width="2" />
+      <circle r="6" fill="none" stroke="#00f0ff" stroke-width="2" />
+      <circle cx="8" cy="-8" r="1.2" fill="#00f0ff" />
+    </g>
+
+    <g id="icon-flstudio">
+      <path d="M0,-14 C4,-14 10,-9.5 10,-2 C10,5 4,12 0,12 C-4,12 -10,5 -10,-2 C-10,-9.5 -4,-14 0,-14 Z M0,-14 C-1.5,-16.5 -5,-16.5 -5,-16.5 C-5,-16.5 -2.5,-13 0,-11 Z" fill="none" stroke="#00ff88" stroke-width="2" />
+    </g>
+
+    <g id="icon-google">
+      <circle r="14" fill="none" stroke="#00f0ff" stroke-width="2" />
+      <path d="M9.5,0 C9.5,5 5.5,9.5 0,9.5 C-5,9.5 -9.5,5.5 -9.5,0 C-9.5,-5 -5,-9.5 0,-9.5 C3,-9.5 6,-8.5 8,-6 L5.5,-3.5 C4.5,-4.5 3,-5.5 0,-5.5 C-3.5,-5.5 -6,-3 -6,0 C-6,3 -3.5,5.5 0,5.5 C2.5,5.5 4.5,4.5 5,3 L0,3 L0,0 Z" fill="none" stroke="#00f0ff" stroke-width="2" />
+    </g>
+    
+    <g id="icon-podcast">
+      <circle r="15" fill="none" stroke="#00ff88" stroke-width="2" />
+      <path d="M-6,0 L-6,4 C-6,7 -4,9 0,9 C4,9 6,7 6,4 L6,0" fill="none" stroke="#00ff88" stroke-width="2"/>
+      <rect x="-3.5" y="-9" width="7" height="12" rx="3.5" fill="none" stroke="#00ff88" stroke-width="2" />
+      <path d="M0,9 L0,13 M-4,13 L4,13" fill="none" stroke="#00ff88" stroke-width="2"/>
+    </g>
+  </defs>
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@500;700&amp;display=swap');
+
+    @keyframes float1 {
+      0% { transform: translateY(0px) rotate(0deg); }
+      50% { transform: translateY(-10px) rotate(3deg); }
+      100% { transform: translateY(0px) rotate(0deg); }
+    }
+    @keyframes float2 {
+      0% { transform: translateY(0px) rotate(0deg); }
+      50% { transform: translateY(12px) rotate(-4deg); }
+      100% { transform: translateY(0px) rotate(0deg); }
+    }
+    @keyframes float3 {
+      0% { transform: translateY(0px) scale(1); }
+      50% { transform: translateY(-8px) scale(1.06); }
+      100% { transform: translateY(0px) scale(1); }
+    }
+    @keyframes pulse {
+      0%, 100% { opacity: 0.6; filter: drop-shadow(0 0 5px rgba(0,255,136,0.4)) drop-shadow(0 0 10px rgba(0,240,255,0.2)); }
+      50% { opacity: 1.0; filter: drop-shadow(0 0 18px rgba(0,255,136,0.9)) drop-shadow(0 0 25px rgba(0,240,255,0.6)); }
+    }
+    @keyframes matrix-code {
+      0% { transform: translateY(-100%); opacity: 0; }
+      10% { opacity: 0.3; }
+      90% { opacity: 0.3; }
+      100% { transform: translateY(100%); opacity: 0; }
+    }
+    @keyframes scanline {
+      0% { transform: translateY(-420px); }
+      100% { transform: translateY(420px); }
+    }
+    @keyframes scale-up {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.03); }
+    }
+
+    .bg-black {
+      fill: #010704;
+    }
+    
+    .logo-main {
+      animation: pulse 4.5s ease-in-out infinite, scale-up 9s ease-in-out infinite;
+      transform-origin: 500px 210px;
+    }
+
+    .f1 { animation: float1 5s ease-in-out infinite; }
+    .f2 { animation: float2 6s ease-in-out infinite; }
+    .f3 { animation: float3 5.5s ease-in-out infinite; }
+
+    .glow-green {
+      filter: drop-shadow(0 0 8px #00ff88);
+    }
+    .glow-cyan {
+      filter: drop-shadow(0 0 8px #00f0ff);
+    }
+    .glow-white {
+      filter: drop-shadow(0 0 10px #ffffff);
+    }
+
+    .matrix-group {
+      font-family: 'Fira Code', monospace;
+      font-size: 9px;
+      font-weight: 700;
+      fill: #00ff88;
+    }
+
+    .matrix-col-1 { animation: matrix-code 16s linear infinite; }
+    .matrix-col-2 { animation: matrix-code 20s linear infinite; }
+    .matrix-col-3 { animation: matrix-code 14s linear infinite; }
+    .matrix-col-4 { animation: matrix-code 18s linear infinite; }
+
+    .scanline {
+      width: 1000px;
+      height: 4px;
+      fill: rgba(0, 255, 136, 0.05);
+      animation: scanline 8s linear infinite;
+    }
+  </style>
+
+  <!-- Solid Cyber Background -->
+  <rect width="1000" height="420" class="bg-black" />
+
+  <!-- Grid Perspective Lines -->
+  <g stroke="#031e0f" stroke-width="1.5" opacity="0.6">
+    <!-- Concentric grid boxes -->
+    <rect x="50" y="21" width="900" height="378" fill="none" />
+    <rect x="150" y="63" width="700" height="294" fill="none" />
+    <rect x="250" y="105" width="500" height="210" fill="none" />
+    <rect x="350" y="147" width="300" height="126" fill="none" />
+    
+    <!-- Radiating Perspective Lines -->
+    <line x1="500" y1="210" x2="0" y2="0" />
+    <line x1="500" y1="210" x2="1000" y2="0" />
+    <line x1="500" y1="210" x2="0" y2="420" />
+    <line x1="500" y1="210" x2="1000" y2="420" />
+    <line x1="500" y1="210" x2="500" y2="0" />
+    <line x1="500" y1="210" x2="500" y2="420" />
+    <line x1="500" y1="210" x2="0" y2="210" />
+    <line x1="500" y1="210" x2="1000" y2="210" />
+  </g>
+
+  <!-- Cyber Matrix Stream Overlay (Faint Background Coding Elements) -->
+  <g class="matrix-group">
+    <!-- Stream Column 1 -->
+    <g class="matrix-col-1" transform="translate(60, 0)">
+      <text x="0" y="40">const developer = "Epun Manula";</text>
+      <text x="0" y="70">system.init();</text>
+      <text x="0" y="100">loadTechStack();</text>
+      <text x="0" y="130">if (status === "active") {</text>
+      <text x="15" y="160">console.log("Welcome to my profile!");</text>
+      <text x="0" y="190">}</text>
+    </g>
+
+    <!-- Stream Column 2 -->
+    <g class="matrix-col-2" transform="translate(230, 0)" style="animation-delay: -5s;">
+      <text x="0" y="50">SELECT * FROM skills;</text>
+      <text x="0" y="80">DATABASE CONNECTED</text>
+      <text x="0" y="110">PORT: 8080</text>
+      <text x="0" y="140">npm run dev</text>
+      <text x="0" y="170">App listening...</text>
+    </g>
+
+    <!-- Stream Column 3 -->
+    <g class="matrix-col-3" transform="translate(660, 0)" style="animation-delay: -3s;">
+      <text x="0" y="40">import React, { useState } from 'react';</text>
+      <text x="0" y="70">const [focus, setFocus] = useState(true);</text>
+      <text x="0" y="100">export default function App() {</text>
+      <text x="15" y="130">return &lt;EMMETabs /&gt;;</text>
+      <text x="0" y="160">}</text>
+    </g>
+
+    <!-- Stream Column 4 -->
+    <g class="matrix-col-4" transform="translate(820, 0)" style="animation-delay: -8s;">
+      <text x="0" y="60">class SoftwareEngineer {</text>
+      <text x="15" y="90">constructor() {</text>
+      <text x="30" y="120">this.passion = "coding";</text>
+      <text x="30" y="150">this.location = "Sri Lanka";</text>
+      <text x="15" y="180">}</text>
+      <text x="0" y="210">}</text>
+    </g>
+  </g>
+
+  <!-- Glowing Central Gateway Emblem (M Logo) -->
+  <g class="logo-main" transform="translate(0, 0)">
+    <!-- Outer hexagonal tech border -->
+    <polygon points="500,75 595,130 595,290 500,345 405,290 405,130" fill="none" stroke="url(#cyan-green-grad)" stroke-width="3" filter="url(#glow-strong)" opacity="0.4" />
+    <polygon points="500,75 595,130 595,290 500,345 405,290 405,130" fill="none" stroke="#00ff88" stroke-width="1" />
+
+    <!-- Center Monogram Pillars -->
+    <!-- Soft background glow -->
+    <path d="M 440,275 V 195 C 440,150 468,135 500,135 C 532,135 560,150 560,195 V 275 M 480,275 V 195 C 480,180 490,170 500,170 C 510,170 520,180 520,195 V 275" 
+          stroke="#00ff88" stroke-width="12" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.3" filter="url(#glow-strong)" />
+    <!-- Sharp white/cyan inner core -->
+    <path d="M 440,275 V 195 C 440,150 468,135 500,135 C 532,135 560,150 560,195 V 275 M 480,275 V 195 C 480,180 490,170 500,170 C 510,170 520,180 520,195 V 275" 
+          stroke="#ffffff" stroke-width="3.5" fill="none" stroke-linecap="round" stroke-linejoin="round" class="glow-white" />
+    <!-- Neon green accent overlay -->
+    <path d="M 440,275 V 195 C 440,150 468,135 500,135 C 532,135 560,150 560,195 V 275 M 480,275 V 195 C 480,180 490,170 500,170 C 510,170 520,180 520,195 V 275" 
+          stroke="#00ff88" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+
+  <!-- Horizontal Scanline Effect -->
+  <rect class="scanline" x="0" y="0" />
+
+  <!-- Linear Gradient Definition for Logo Outer Frame -->
+  <linearGradient id="cyan-green-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#00f0ff" />
+    <stop offset="100%" stop-color="#00ff88" />
+  </linearGradient>
+
+  <!-- Surrounding Animated Icons (Instantiated with relative positions & custom floats) -->
+  
+  <!-- Left Side Icons -->
+  <g class="f1 glow-cyan" transform="translate(100, 220)">
+    <use href="#icon-php" />
+  </g>
+  
+  <g class="f2 glow-green" transform="translate(120, 320)">
+    <use href="#icon-html" />
+  </g>
+  
+  <g class="f3 glow-cyan" transform="translate(220, 270)">
+    <use href="#icon-mysql" />
+  </g>
+  
+  <g class="f1 glow-cyan" transform="translate(320, 320)">
+    <use href="#icon-node" />
+  </g>
+  
+  <g class="f2 glow-green" transform="translate(280, 370)">
+    <use href="#icon-github" />
+  </g>
+  
+  <g class="f3 glow-cyan" transform="translate(190, 180)">
+    <use href="#icon-css" />
+  </g>
+  
+  <g class="f1 glow-green" transform="translate(250, 90)">
+    <use href="#icon-js" />
+  </g>
+  
+  <g class="f2 glow-cyan" transform="translate(120, 90)">
+    <use href="#icon-google" />
+  </g>
+  
+  <g class="f3 glow-cyan" transform="translate(400, 340)">
+    <use href="#icon-vscode" />
+  </g>
+  
+  <g class="f2 glow-green" transform="translate(320, 160)">
+    <use href="#icon-php" />
+  </g>
+
+  <!-- Right Side Icons -->
+  <g class="f1 glow-cyan" transform="translate(600, 90)">
+    <use href="#icon-vscode" />
+  </g>
+  
+  <g class="f2 glow-cyan" transform="translate(780, 90)">
+    <use href="#icon-facebook" />
+  </g>
+  
+  <g class="f3 glow-green" transform="translate(900, 100)">
+    <use href="#icon-youtube" />
+  </g>
+  
+  <g class="f1 glow-green" transform="translate(680, 170)">
+    <use href="#icon-podcast" />
+  </g>
+  
+  <g class="f2 glow-cyan" transform="translate(780, 200)">
+    <use href="#icon-instagram" />
+  </g>
+  
+  <g class="f3 glow-cyan" transform="translate(680, 280)">
+    <use href="#icon-react" />
+  </g>
+  
+  <g class="f1 glow-green" transform="translate(920, 230)">
+    <use href="#icon-flstudio" />
+  </g>
+  
+  <g class="f2 glow-cyan" transform="translate(620, 340)">
+    <use href="#icon-discord" />
+  </g>
+  
+  <g class="f3 glow-green" transform="translate(740, 330)">
+    <use href="#icon-spotify" />
+  </g>
+  
+  <g class="f1 glow-green" transform="translate(880, 340)">
+    <use href="#icon-aws" />
+  </g>
+</svg>
