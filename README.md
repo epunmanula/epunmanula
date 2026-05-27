@@ -13,6 +13,12 @@
     <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=22&pause=1500&color=ffffff&center=true&vCenter=true&width=550&lines=Crafting+Digital+Experiences;Architecting+Web+Solutions;Full-Stack+Engineering;Software+Engineering+Student" alt="Typing SVG" />
   </a>
 </p>
+
+<p align="center">
+  <a href="https://committers.top/sri_lanka#EpunManula">
+    <img src="https://user-badge.committers.top/sri_lanka/EpunManula.svg" alt="committers.top badge" />
+  </a>
+</p>
  
 ---
 
