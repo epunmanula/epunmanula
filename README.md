@@ -18,6 +18,7 @@
   <a href="https://committers.top/sri_lanka#EpunManula">
     <img src="https://user-badge.committers.top/sri_lanka/EpunManula.svg" alt="committers.top badge" />
   </a>
+  <img src="https://komarev.com/ghpvc/?username=epunmanula&color=1db954" alt="Profile Views" />
 </p>
  
 ---
