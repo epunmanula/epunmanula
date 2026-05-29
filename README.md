@@ -80,7 +80,7 @@ Welcome to my digital workspace! I'm a passionate Software Developer from Sri La
 
 ### 🚀 Featured Projects & Extensions
 
-* ⚡ [**EmmE Video Speed Master**](https://emmevideospeedmaster.ct.ws/) - A powerful, lightweight Chrome extension offering absolute control over HTML5 video playback speeds with custom global hotkeys.
+* ⚡ [**EmmE Video Speed Master**](https://emmevideospeedmaster.page.gd/) - A powerful, lightweight Chrome extension offering absolute control over HTML5 video playback speeds with custom global hotkeys.
 * 🎟️ [**UMSLTickets**](https://umsltickets.online/) - Custom online ticketing platform with secure payment gateway integration.
 * 📚 [**TechSet**](https://techseteka.gt.tc/) - A dedicated LMS and resource dashboard built for G.C.E A/L Technology students.
 * 🌐 [**EM Me Focus**](https://emmefocus.gt.tc/) - A custom web application project focused on productivity.
