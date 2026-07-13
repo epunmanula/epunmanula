@@ -14,11 +14,7 @@
   </a>
 </p>
 
-<p align="center">
-  <a href="https://committers.top/sri_lanka#EpunManula">
-    <img src="https://user-badge.committers.top/sri_lanka/EpunManula.svg" alt="committers.top badge" />
-  </a>
-</p>
+
  
 ---
 
