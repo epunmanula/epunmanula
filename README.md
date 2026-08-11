@@ -38,7 +38,7 @@ Welcome to my digital workspace! I'm **Epun Manula**, a Computer Science Undergr
   - 🛡️ [**PrivacyBlur AI**](https://epunmanula.com/projects) — Privacy-first browser tool blurring faces locally via WebAssembly BlazeFace AI.
   - 📊 [**MHabit Tracker**](https://epunmanula.com/projects) — Unified habit & focus ecosystem (Web, Electron Desktop, & Android WebView).
   - 🎧 [**EMME Audio EQ Extension**](https://epunmanula.com/projects) — 10-Band Chrome audio equalizer & 3D spatial enhancer using Manifest V3 Offscreen DSP.
-  - ⚡ [**EmmE Video Speed Master**](https://emmevideospeedmaster.page.gd/) — Granular HTML5 playback speed controller with global hotkeys.
+  - ⚡ [**EmmE Video Speed Master**](https://emmevideospeedmaster.page.gd/) — Granular HTML5 playback speed control with global hotkeys.
 - 🎵 **Creative Work:** Independent Music Producer streaming across [Spotify](https://open.spotify.com/artist/2a5KgbDfSYmIWh6MpQB9ev), Apple Music, & SoundCloud.
 - ⚡ **Fun Fact:** I love bridging complex backend logic with smooth micro-animations and custom audio DSP algorithms!
 
@@ -64,7 +64,7 @@ Welcome to my digital workspace! I'm **Epun Manula**, a Computer Science Undergr
 
 <div align="center">
   <a href="https://github.com/epunmanula"><img src="https://img.shields.io/badge/Total_Contributions-2%2C300%2B_Commits-1DB954?style=for-the-badge&logo=github&logoColor=white" alt="Contributions" /></a>
-  <a href="https://github.com/epunmanula"><img src="https://github.com/epunmanula"><img src="https://img.shields.io/badge/Daily_Streak-Active-000000?style=for-the-badge&logo=github&logoColor=1DB954" alt="Streak" /></a>
+  <a href="https://github.com/epunmanula"><img src="https://img.shields.io/badge/Daily_Streak-Active-000000?style=for-the-badge&logo=github&logoColor=1DB954" alt="Streak" /></a>
   <a href="https://github.com/epunmanula"><img src="https://komarev.com/ghpvc/?username=epunmanula&color=1db954&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile Views" /></a>
 </div>
 
@@ -110,7 +110,7 @@ Welcome to my digital workspace! I'm **Epun Manula**, a Computer Science Undergr
       <h4>🎨 Creative Tools & Audio Workstations</h4>
       <a href="https://epunmanula.com" target="_blank"><img src="https://skillicons.dev/icons?i=figma" alt="Figma" height="40" /></a>
       <a href="https://epunmanula.com" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/canva/canva-original.svg" alt="Canva" height="40" /></a>
-      <a href="https://epunmanula.com" target="_blank"><img src="https://epunmanula.com/assets/images/skills/skill_1779135215_3e057cc3.png" alt="FL Studio" height="40" /></a>
+      <a href="https://epunmanula.com" target="_blank"><img src="fl-studio.svg" alt="FL Studio" height="40" /></a>
       <a href="https://epunmanula.com" target="_blank"><img src="https://static.vecteezy.com/system/resources/previews/067/065/640/non_2x/capcut-logo-square-rounded-capcut-logo-capcut-logo-free-download-free-png.png" alt="CapCut" height="40" /></a>
       <a href="https://epunmanula.com" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="VS Code" height="40" /></a>
     </td>

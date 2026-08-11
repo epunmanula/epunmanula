@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="40" height="40">
+  <defs>
+    <linearGradient id="fl-mango" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF7A00" />
+      <stop offset="50%" stop-color="#FF4D00" />
+      <stop offset="100%" stop-color="#E02E00" />
+    </linearGradient>
+    <linearGradient id="fl-leaf" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#22C55E" />
+      <stop offset="100%" stop-color="#15803D" />
+    </linearGradient>
+  </defs>
+
+  <!-- Mango Fruit Body -->
+  <path d="M 50 18 C 75 18 92 36 90 62 C 88 84 68 95 48 94 C 28 93 10 78 12 56 C 14 34 32 18 50 18 Z" fill="url(#fl-mango)" />
+  
+  <!-- Highlight Curve -->
+  <path d="M 38 26 C 58 26 78 36 82 56 C 76 40 58 32 38 26 Z" fill="#FFA347" opacity="0.6" />
+
+  <!-- Green Leaf -->
+  <path d="M 50 18 C 45 6 30 2 20 6 C 26 16 38 22 50 18 Z" fill="url(#fl-leaf)" />
+  
+  <!-- Leaf Stem -->
+  <path d="M 48 18 Q 44 12 40 8" stroke="#15803D" stroke-width="2.5" fill="none" stroke-linecap="round" />
+</svg>
