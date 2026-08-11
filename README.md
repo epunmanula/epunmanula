@@ -3,22 +3,14 @@
     <img src="emlogo.png" width="130" alt="EPUN MANULA Logo" />
   </a>
   <br/><br/>
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=800&size=24&pause=1200&color=1DB954&center=true&vCenter=true&width=700&lines=01000101+01010000+01010101+01001110+%5BENCRYPTED_KEY_0x8F%5D;%3E_DECRYPTING_CIPHER_PROTOCOL...+%5B0%25...45%25...99%25%5D;%3E_EPUN+MANULA+%5BACCESS_GRANTED%5D;Software+Engineer+%E2%80%A2+Full-Stack+Developer+%E2%80%A2+Tech+Entrepreneur" alt="Cyber Decode Animation" />
+  </a>
+  <br/><br/>
   <img src="epun-manula-vibrant-banner.svg" alt="EPUN MANULA Banner" width="100%" />
 </div>
 
 <br/>
-
-<div align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=17&pause=1000&color=1DB954&center=true&vCenter=true&width=650&lines=%3E_root%40epunmanula%3A~%24+system.init()%3B;%3E_Executing+script%3A+Decode_Protocol.sh...;%3E_Loading+Tech_Stack%3A+React_Next_PHP_Wasm...;%3E_Connection+Secure.+Access+Granted." alt="Terminal Boot SVG" />
-  </a>
-</div>
-
-<p align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=800&size=24&pause=1500&color=FFFFFF&center=true&vCenter=true&width=680&lines=01000101+01010000+01010101+01001110+%5BDECODING...%5D;EPUN+MANULA+%5BACCESS+GRANTED%5D;Crafting+Digital+Experiences;Architecting+Web+Solutions;Full-Stack+Engineering;Computer+Science+Undergraduate;Tech+Entrepreneur+%26+Music+Producer" alt="Typing SVG" />
-  </a>
-</p>
 
 <p align="center">
   <a href="https://epunmanula.com" target="_blank"><img src="https://img.shields.io/badge/Official_Website-epunmanula.com-1DB954?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Official Website" /></a>
