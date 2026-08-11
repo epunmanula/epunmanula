@@ -1,4 +1,8 @@
 <div align="center">
+  <a href="https://epunmanula.com" target="_blank">
+    <img src="emlogo.png" width="130" alt="EPUN MANULA Logo" />
+  </a>
+  <br/><br/>
   <img src="epun-manula-vibrant-banner.svg" alt="EPUN MANULA Banner" width="100%" />
 </div>
 
