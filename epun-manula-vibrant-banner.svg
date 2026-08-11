@@ -2,9 +2,9 @@
   <defs>
     <!-- Dark Cyber Canvas Gradient -->
     <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#050811" />
-      <stop offset="50%" stop-color="#03050A" />
-      <stop offset="100%" stop-color="#010204" />
+      <stop offset="0%" stop-color="#060A12" />
+      <stop offset="50%" stop-color="#04070D" />
+      <stop offset="100%" stop-color="#020306" />
     </linearGradient>
 
     <!-- Emerald Neon Gradients -->
@@ -14,11 +14,9 @@
       <stop offset="100%" stop-color="#059669" />
     </linearGradient>
 
-    <!-- 3D Emerald Logo Metallic Gradient -->
-    <linearGradient id="em-metal" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#34D399" />
-      <stop offset="50%" stop-color="#10B981" />
-      <stop offset="100%" stop-color="#047857" />
+    <linearGradient id="cyan-glow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#06B6D4" />
+      <stop offset="100%" stop-color="#3B82F6" />
     </linearGradient>
 
     <!-- Matrix Code Grid Pattern -->
@@ -27,88 +25,10 @@
       <circle cx="40" cy="40" r="1" fill="rgba(16, 185, 129, 0.25)" />
     </pattern>
 
-    <!-- High-Tech CSS Animations for Real Logos Floating & Matrix Scramble Decode -->
-    <style>
-      @keyframes laser-scan {
-        0% { transform: translateY(0px); opacity: 0.15; }
-        50% { transform: translateY(340px); opacity: 0.7; }
-        100% { transform: translateY(0px); opacity: 0.15; }
-      }
-
-      @keyframes holo-pulse {
-        0% { transform: scale(1); }
-        50% { transform: scale(1.04); }
-        100% { transform: scale(1); }
-      }
-
-      /* Matrix Cipher Encryption & Decryption Animation for Name */
-      @keyframes cipher-scramble-1 {
-        0%, 100% { opacity: 0; transform: translateY(-5px); }
-        10%, 40% { opacity: 1; transform: translateY(0px); }
-        45%, 95% { opacity: 0; transform: translateY(5px); }
-      }
-
-      @keyframes cipher-scramble-2 {
-        0%, 40% { opacity: 0; transform: translateY(-5px); }
-        45%, 75% { opacity: 1; transform: translateY(0px); }
-        80%, 100% { opacity: 0; transform: translateY(5px); }
-      }
-
-      @keyframes decode-final {
-        0%, 75% { opacity: 0; }
-        80%, 98% { opacity: 1; }
-        100% { opacity: 0.9; }
-      }
-
-      /* Dynamic Real Logos Floating Animations (Ehata Mehata Yana Animation) */
-      @keyframes logo-float-1 {
-        0% { transform: translate(0px, 0px) scale(1); }
-        25% { transform: translate(16px, -12px) scale(1.05); }
-        50% { transform: translate(-12px, 14px) scale(0.96); }
-        75% { transform: translate(14px, -10px) scale(1.03); }
-        100% { transform: translate(0px, 0px) scale(1); }
-      }
-
-      @keyframes logo-float-2 {
-        0% { transform: translate(0px, 0px) scale(1); }
-        25% { transform: translate(-18px, 14px) scale(0.95); }
-        50% { transform: translate(15px, -16px) scale(1.06); }
-        75% { transform: translate(-14px, 12px) scale(0.97); }
-        100% { transform: translate(0px, 0px) scale(1); }
-      }
-
-      @keyframes logo-float-3 {
-        0% { transform: translate(0px, 0px) scale(1); }
-        33% { transform: translate(22px, -15px) scale(1.04); }
-        66% { transform: translate(-16px, -10px) scale(0.96); }
-        100% { transform: translate(0px, 0px) scale(1); }
-      }
-
-      @keyframes orbit-ring {
-        from { transform: rotate(0deg); }
-        to { transform: rotate(360deg); }
-      }
-
-      @keyframes orbit-ring-reverse {
-        from { transform: rotate(360deg); }
-        to { transform: rotate(0deg); }
-      }
-
-      .logo-pulse { animation: holo-pulse 4s ease-in-out infinite; transform-origin: 195px 170px; }
-      .cipher-text-1 { animation: cipher-scramble-1 6s cubic-bezier(0.4, 0, 0.2, 1) infinite; font-family: 'Fira Code', monospace; }
-      .cipher-text-2 { animation: cipher-scramble-2 6s cubic-bezier(0.4, 0, 0.2, 1) infinite; font-family: 'Fira Code', monospace; }
-      .decode-text-main { animation: decode-final 6s cubic-bezier(0.4, 0, 0.2, 1) infinite; font-family: 'Inter', 'Fira Code', monospace; }
-
-      .float-l1 { animation: logo-float-1 5s ease-in-out infinite; }
-      .float-l2 { animation: logo-float-2 6s ease-in-out infinite 0.4s; }
-      .float-l3 { animation: logo-float-3 5.4s ease-in-out infinite 0.8s; }
-      .float-l4 { animation: logo-float-1 6.2s ease-in-out infinite 1.2s; }
-      .float-l5 { animation: logo-float-2 5.6s ease-in-out infinite 1.6s; }
-      .float-l6 { animation: logo-float-3 6.5s ease-in-out infinite 2s; }
-
-      .orbit-dashed { animation: orbit-ring 25s linear infinite; transform-origin: 195px 170px; }
-      .orbit-dashed-rev { animation: orbit-ring-reverse 20s linear infinite; transform-origin: 195px 170px; }
-    </style>
+    <!-- Filters for Glow & Shadows -->
+    <filter id="blur-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="70" />
+    </filter>
   </defs>
 
   <!-- Background Base Canvas -->
@@ -116,69 +36,116 @@
   <rect width="1200" height="340" rx="16" fill="url(#grid)" />
 
   <!-- Ambient Glowing Orbs -->
-  <circle cx="200" cy="170" r="190" fill="#1DB954" opacity="0.18" />
-  <circle cx="1000" cy="170" r="190" fill="#10B981" opacity="0.14" />
-  <circle cx="600" cy="80" r="130" fill="#06B6D4" opacity="0.06" />
+  <circle cx="180" cy="170" r="180" fill="#1DB954" opacity="0.18" filter="url(#blur-glow)" />
+  <circle cx="1020" cy="170" r="180" fill="#10B981" opacity="0.14" filter="url(#blur-glow)" />
+  <circle cx="600" cy="80" r="130" fill="#06B6D4" opacity="0.06" filter="url(#blur-glow)" />
 
   <!-- Outer Cyber Neon Border -->
   <rect x="1" y="1" width="1198" height="338" rx="15" fill="none" stroke="url(#emerald-glow)" stroke-opacity="0.4" stroke-width="2" />
 
-  <!-- Scanning Cyber Laser -->
-  <line x1="0" y1="0" x2="1200" y2="0" stroke="#1DB954" stroke-width="1.8" opacity="0.5" style="animation: laser-scan 5s linear infinite;" />
-
-  <!-- 3D Emerald Vector Logo (Pure SVG - No Raster Base64 so GitHub renders 100%) -->
-  <g class="logo-pulse">
-    <!-- Orbit Rings -->
-    <circle class="orbit-dashed" cx="195" cy="170" r="95" fill="none" stroke="rgba(29, 185, 84, 0.4)" stroke-width="1.5" stroke-dasharray="10 8" />
-    <circle class="orbit-dashed-rev" cx="195" cy="170" r="85" fill="none" stroke="rgba(6, 182, 212, 0.4)" stroke-width="1.5" stroke-dasharray="6 6" />
-    <circle cx="195" cy="170" r="76" fill="rgba(0, 0, 0, 0.6)" stroke="rgba(16, 185, 129, 0.6)" stroke-width="2" />
-    
-    <!-- Vector Emerald EM Arch Logo -->
-    <g transform="translate(195, 170) scale(1.1)">
-      <!-- Outer EM Arch Shell -->
-      <path d="M -36 10 C -36 -28 36 -28 36 10 L 22 10 C 22 -16 -22 -16 -22 10 Z" fill="url(#em-metal)" stroke="#A7F3D0" stroke-width="1" />
-      <!-- Left Leg -->
-      <path d="M -36 18 L -22 18 L -22 45 L -36 40 Z" fill="url(#em-metal)" stroke="#A7F3D0" stroke-width="1" />
-      <!-- Middle Pillar (T/M center) -->
-      <path d="M -8 -8 L 8 -8 L 8 45 L -8 45 Z" fill="url(#em-metal)" stroke="#A7F3D0" stroke-width="1" />
-      <!-- Right Leg -->
-      <path d="M 22 18 L 36 18 L 36 40 L 22 45 Z" fill="url(#em-metal)" stroke="#A7F3D0" stroke-width="1" />
-    </g>
+  <!-- Left Side Tech Circuit Accents -->
+  <g stroke="#1DB954" stroke-width="1.2" opacity="0.3" fill="none">
+    <path d="M 40 60 L 140 60 L 180 100" />
+    <path d="M 40 280 L 140 280 L 180 240" />
+    <circle cx="40" cy="60" r="3" fill="#1DB954" />
+    <circle cx="40" cy="280" r="3" fill="#1DB954" />
+    <circle cx="180" cy="100" r="3" fill="#1DB954" />
+    <circle cx="180" cy="240" r="3" fill="#1DB954" />
   </g>
 
-  <!-- Main Center Content: Protocol Badge, Matrix Decode Scramble Name, Subtitle -->
+  <!-- Right Side Tech Circuit Accents -->
+  <g stroke="#10B981" stroke-width="1.2" opacity="0.3" fill="none">
+    <path d="M 1160 60 L 1060 60 L 1020 100" />
+    <path d="M 1160 280 L 1060 280 L 1020 240" />
+    <circle cx="1160" cy="60" r="3" fill="#10B981" />
+    <circle cx="1160" cy="280" r="3" fill="#10B981" />
+    <circle cx="1020" cy="100" r="3" fill="#10B981" />
+    <circle cx="1020" cy="240" r="3" fill="#10B981" />
+  </g>
+
+  <!-- LEFT SIDE REAL TECH LOGOS -->
+  <!-- 1. REACT LOGO -->
+  <g transform="translate(50, 45)">
+    <circle cx="22" cy="22" r="22" fill="rgba(10, 15, 25, 0.85)" stroke="#61DAFB" stroke-width="1.5" />
+    <g transform="translate(22, 22) scale(0.65)">
+      <ellipse rx="18" ry="7" fill="none" stroke="#61DAFB" stroke-width="2" />
+      <ellipse rx="18" ry="7" fill="none" stroke="#61DAFB" stroke-width="2" transform="rotate(60)" />
+      <ellipse rx="18" ry="7" fill="none" stroke="#61DAFB" stroke-width="2" transform="rotate(120)" />
+      <circle r="3.5" fill="#61DAFB" />
+    </g>
+    <text x="52" y="27" font-family="'Fira Code', monospace" font-size="13" font-weight="700" fill="#61DAFB">React</text>
+  </g>
+
+  <!-- 2. NEXT.JS LOGO -->
+  <g transform="translate(160, 45)">
+    <circle cx="22" cy="22" r="22" fill="rgba(10, 15, 25, 0.85)" stroke="#FFFFFF" stroke-width="1.5" />
+    <g transform="translate(10, 10) scale(0.8)">
+      <circle cx="15" cy="15" r="14" fill="#000000" stroke="#FFFFFF" stroke-width="1" />
+      <path d="M 21 21 L 11 8 L 9 8 L 9 22 L 12 22 L 12 12 L 19.5 22 Z" fill="#FFFFFF" />
+      <rect x="18" y="8" width="3" height="7" fill="#FFFFFF" />
+    </g>
+    <text x="52" y="27" font-family="'Fira Code', monospace" font-size="13" font-weight="700" fill="#FFFFFF">Next.js</text>
+  </g>
+
+  <!-- 3. TYPESCRIPT LOGO -->
+  <g transform="translate(50, 125)">
+    <rect x="0" y="0" width="44" height="44" rx="12" fill="#3178C6" stroke="#FFFFFF" stroke-width="1.2" />
+    <text x="22" y="30" text-anchor="middle" font-family="'Inter', sans-serif" font-weight="900" font-size="20" fill="#FFFFFF">TS</text>
+    <text x="54" y="27" font-family="'Fira Code', monospace" font-size="13" font-weight="700" fill="#93C5FD">TypeScript</text>
+  </g>
+
+  <!-- 4. PHP LOGO -->
+  <g transform="translate(170, 125)">
+    <ellipse cx="22" cy="22" rx="24" ry="16" fill="#777BB4" stroke="#FFFFFF" stroke-width="1.2" />
+    <text x="22" y="27" text-anchor="middle" font-family="'Fira Code', monospace" font-weight="900" font-size="14" fill="#FFFFFF">php</text>
+    <text x="54" y="27" font-family="'Fira Code', monospace" font-size="13" font-weight="700" fill="#C4B5FD">PHP 8.x</text>
+  </g>
+
+  <!-- 5. NODE.JS LOGO -->
+  <g transform="translate(50, 205)">
+    <circle cx="22" cy="22" r="22" fill="rgba(10, 15, 25, 0.85)" stroke="#22C55E" stroke-width="1.5" />
+    <path d="M 22 10 L 33 16 L 33 28 L 22 34 L 11 28 L 11 16 Z" fill="none" stroke="#22C55E" stroke-width="2" />
+    <path d="M 22 17 L 27 20 L 27 25 M 22 17 L 17 20 L 17 25" stroke="#86EFAC" stroke-width="2" stroke-linecap="round" />
+    <text x="52" y="27" font-family="'Fira Code', monospace" font-size="13" font-weight="700" fill="#86EFAC">Node.js</text>
+  </g>
+
+  <!-- 6. PYTHON LOGO -->
+  <g transform="translate(160, 205)">
+    <circle cx="22" cy="22" r="22" fill="rgba(10, 15, 25, 0.85)" stroke="#3776AB" stroke-width="1.5" />
+    <g transform="translate(9, 9) scale(0.65)">
+      <path d="M 19 2 C 11 2 11 6 11 6 L 11 10 L 19 10 L 19 12 L 7 12 C 2 12 2 19 2 19 L 2 25 C 2 30 7 30 7 30 L 11 30 L 11 25 C 11 20 16 20 16 20 L 24 20 C 29 20 29 15 29 15 L 29 9 C 29 3 24 2 19 2 Z" fill="#3776AB" />
+      <path d="M 21 38 C 29 38 29 34 29 34 L 29 30 L 21 30 L 21 28 L 33 28 C 38 28 38 21 38 21 L 38 15 C 38 10 33 10 33 10 L 29 10 L 29 15 C 29 20 24 20 24 20 L 16 20 C 11 20 11 25 11 25 L 11 31 C 11 37 16 38 21 38 Z" fill="#FFD43B" />
+    </g>
+    <text x="52" y="27" font-family="'Fira Code', monospace" font-size="13" font-weight="700" fill="#93C5FD">Python</text>
+  </g>
+
+  <!-- CENTER MAIN CONTENT -->
   <g transform="translate(320, 0)">
-    <!-- Protocol Badge -->
-    <g transform="translate(0, 40)">
-      <rect x="0" y="0" width="340" height="26" rx="13" fill="rgba(29, 185, 84, 0.12)" stroke="#1DB954" stroke-opacity="0.5" />
-      <circle cx="16" cy="13" r="4.5" fill="#1DB954" />
-      <text x="32" y="17" font-family="'Fira Code', monospace" font-size="12" font-weight="700" fill="#A7F3D0">
-        SECURITY.PROTOCOL // DECODE_ENCRYPT_v2.6
+    <!-- Protocol Status Badge -->
+    <g transform="translate(100, 35)">
+      <rect x="0" y="0" width="360" height="28" rx="14" fill="rgba(29, 185, 84, 0.12)" stroke="#1DB954" stroke-opacity="0.5" />
+      <circle cx="16" cy="14" r="4.5" fill="#1DB954" />
+      <text x="32" y="18" font-family="'Fira Code', monospace" font-size="12" font-weight="700" fill="#A7F3D0">
+        SYSTEM.DECODE_PROTOCOL // FULL_STACK_v2.6
       </text>
     </g>
 
-    <!-- MATRIX ENCRYPTION & DECRYPTION SCRAMBLE ANIMATION -->
-    <!-- Cipher Stage 1: Scrambled Hex/Binary Encryption -->
-    <text class="cipher-text-1" x="0" y="145" font-weight="900" font-size="44" letter-spacing="4" fill="#1DB954">
-      0X1F4 [ENCRYPTED_0100101]
+    <!-- Binary Code Sub-Line -->
+    <text x="280" y="92" text-anchor="middle" font-family="'Fira Code', monospace" font-weight="700" font-size="14" fill="#1DB954" opacity="0.6" letter-spacing="4">
+      01000101 01010000 01010101 01001110
     </text>
 
-    <!-- Cipher Stage 2: Scrambled Decrypting -->
-    <text class="cipher-text-2" x="0" y="145" font-weight="900" font-size="44" letter-spacing="4" fill="#06B6D4">
-      &gt; DECRYPTING_0X8F_EPUN...
+    <!-- Main Title Name -->
+    <text x="280" y="145" text-anchor="middle" font-family="'Inter', 'Segoe UI', sans-serif" font-weight="900" font-size="48" letter-spacing="6" fill="#FFFFFF">
+      EPUN MANULA
     </text>
 
-    <!-- Cipher Stage 3 (Final Decoded Name): EPUN MANULA -->
-    <text class="decode-text-main" x="0" y="145" font-weight="900" font-size="48" letter-spacing="6" fill="#FFFFFF">
-      &gt; EPUN MANULA_
-    </text>
-
-    <!-- Role Subtitle Line -->
-    <text x="0" y="182" font-family="'Fira Code', monospace" font-weight="700" font-size="16" letter-spacing="2" fill="#1DB954">
+    <!-- Subtitle Line -->
+    <text x="280" y="182" text-anchor="middle" font-family="'Fira Code', monospace" font-weight="700" font-size="15" letter-spacing="2" fill="#1DB954">
       SOFTWARE ENGINEER • FULL-STACK DEVELOPER • TECH ENTREPRENEUR
     </text>
 
-    <!-- BOTTOM WEBSITE & EMAIL PILL BAR -->
+    <!-- CENTER BOTTOM WEBSITE & EMAIL PILL BAR -->
     <g transform="translate(0, 220)">
       <rect x="0" y="0" width="560" height="54" rx="27" fill="rgba(0, 0, 0, 0.75)" stroke="url(#emerald-glow)" stroke-width="1.8" />
       
@@ -203,73 +170,23 @@
     </g>
   </g>
 
-  <!-- REAL FLOATING TECH STACK LOGOS (Pure Vector Logos) -->
-  
-  <!-- 1. REACT LOGO (Left Top) -->
-  <g class="float-l1" transform="translate(45, 25)">
-    <circle cx="22" cy="22" r="22" fill="rgba(10, 15, 25, 0.85)" stroke="#61DAFB" stroke-width="1.5" />
-    <g transform="translate(22, 22) scale(0.65)">
-      <ellipse rx="18" ry="7" fill="none" stroke="#61DAFB" stroke-width="2" />
-      <ellipse rx="18" ry="7" fill="none" stroke="#61DAFB" stroke-width="2" transform="rotate(60)" />
-      <ellipse rx="18" ry="7" fill="none" stroke="#61DAFB" stroke-width="2" transform="rotate(120)" />
-      <circle r="3.5" fill="#61DAFB" />
-    </g>
-  </g>
-
-  <!-- 2. NEXT.JS LOGO (Left Upper Middle) -->
-  <g class="float-l2" transform="translate(215, 20)">
-    <circle cx="22" cy="22" r="22" fill="rgba(10, 15, 25, 0.85)" stroke="#FFFFFF" stroke-width="1.5" />
-    <g transform="translate(10, 10) scale(0.8)">
-      <circle cx="15" cy="15" r="14" fill="#000000" stroke="#FFFFFF" stroke-width="1" />
-      <path d="M 21 21 L 11 8 L 9 8 L 9 22 L 12 22 L 12 12 L 19.5 22 Z" fill="#FFFFFF" />
-      <rect x="18" y="8" width="3" height="7" fill="#FFFFFF" />
-    </g>
-  </g>
-
-  <!-- 3. TYPESCRIPT LOGO (Left Middle) -->
-  <g class="float-l3" transform="translate(25, 145)">
-    <rect x="0" y="0" width="44" height="44" rx="12" fill="#3178C6" stroke="#FFFFFF" stroke-width="1.2" />
-    <text x="22" y="30" text-anchor="middle" font-family="'Inter', sans-serif" font-weight="900" font-size="20" fill="#FFFFFF">TS</text>
-  </g>
-
-  <!-- 4. PHP LOGO (Left Lower Middle) -->
-  <g class="float-l4" transform="translate(225, 145)">
-    <ellipse cx="22" cy="22" rx="24" ry="16" fill="#777BB4" stroke="#FFFFFF" stroke-width="1.2" />
-    <text x="22" y="27" text-anchor="middle" font-family="'Fira Code', monospace" font-weight="900" font-size="14" fill="#FFFFFF">php</text>
-  </g>
-
-  <!-- 5. NODE.JS LOGO (Left Bottom) -->
-  <g class="float-l5" transform="translate(45, 260)">
-    <circle cx="22" cy="22" r="22" fill="rgba(10, 15, 25, 0.85)" stroke="#22C55E" stroke-width="1.5" />
-    <path d="M 22 10 L 33 16 L 33 28 L 22 34 L 11 28 L 11 16 Z" fill="none" stroke="#22C55E" stroke-width="2" />
-    <path d="M 22 17 L 27 20 L 27 25 M 22 17 L 17 20 L 17 25" stroke="#86EFAC" stroke-width="2" stroke-linecap="round" />
-  </g>
-
-  <!-- 6. PYTHON LOGO (Left Outer Bottom) -->
-  <g class="float-l6" transform="translate(195, 265)">
-    <circle cx="22" cy="22" r="22" fill="rgba(10, 15, 25, 0.85)" stroke="#3776AB" stroke-width="1.5" />
-    <g transform="translate(9, 9) scale(0.65)">
-      <path d="M 19 2 C 11 2 11 6 11 6 L 11 10 L 19 10 L 19 12 L 7 12 C 2 12 2 19 2 19 L 2 25 C 2 30 7 30 7 30 L 11 30 L 11 25 C 11 20 16 20 16 20 L 24 20 C 29 20 29 15 29 15 L 29 9 C 29 3 24 2 19 2 Z" fill="#3776AB" />
-      <path d="M 21 38 C 29 38 29 34 29 34 L 29 30 L 21 30 L 21 28 L 33 28 C 38 28 38 21 38 21 L 38 15 C 38 10 33 10 33 10 L 29 10 L 29 15 C 29 20 24 20 24 20 L 16 20 C 11 20 11 25 11 25 L 11 31 C 11 37 16 38 21 38 Z" fill="#FFD43B" />
-      <circle cx="15" cy="6" r="1.5" fill="#FFFFFF" />
-      <circle cx="25" cy="34" r="1.5" fill="#FFFFFF" />
-    </g>
-  </g>
-
-  <!-- 7. WEBASSEMBLY LOGO (Right Top) -->
-  <g class="float-l2" transform="translate(935, 25)">
+  <!-- RIGHT SIDE REAL TECH LOGOS -->
+  <!-- 7. WEBASSEMBLY LOGO -->
+  <g transform="translate(930, 45)">
     <rect x="0" y="0" width="44" height="44" rx="12" fill="#654FF0" stroke="#FFFFFF" stroke-width="1.2" />
     <text x="22" y="28" text-anchor="middle" font-family="'Fira Code', monospace" font-weight="900" font-size="14" fill="#FFFFFF">WA</text>
+    <text x="54" y="27" font-family="'Fira Code', monospace" font-size="13" font-weight="700" fill="#C4B5FD">Wasm</text>
   </g>
 
-  <!-- 8. SUPABASE LOGO (Right Upper Middle) -->
-  <g class="float-l1" transform="translate(1085, 20)">
+  <!-- 8. SUPABASE LOGO -->
+  <g transform="translate(1040, 45)">
     <circle cx="22" cy="22" r="22" fill="rgba(10, 15, 25, 0.85)" stroke="#3ECF8E" stroke-width="1.5" />
     <path d="M 24 10 L 12 24 L 21 24 L 20 34 L 32 20 L 23 20 Z" fill="#3ECF8E" />
+    <text x="52" y="27" font-family="'Fira Code', monospace" font-size="13" font-weight="700" fill="#6EE7B7">Supabase</text>
   </g>
 
-  <!-- 9. DOCKER LOGO (Right Middle) -->
-  <g class="float-l4" transform="translate(925, 145)">
+  <!-- 9. DOCKER LOGO -->
+  <g transform="translate(930, 125)">
     <circle cx="22" cy="22" r="22" fill="rgba(10, 15, 25, 0.85)" stroke="#2496ED" stroke-width="1.5" />
     <g transform="translate(10, 14) scale(0.65)">
       <rect x="0" y="12" width="6" height="5" rx="1" fill="#2496ED" />
@@ -279,10 +196,11 @@
       <rect x="16" y="5" width="6" height="5" rx="1" fill="#2496ED" />
       <path d="M 0 20 C 5 20 8 26 22 26 C 30 26 36 20 36 20" fill="none" stroke="#2496ED" stroke-width="2" />
     </g>
+    <text x="52" y="27" font-family="'Fira Code', monospace" font-size="13" font-weight="700" fill="#93C5FD">Docker</text>
   </g>
 
-  <!-- 10. GIT LOGO (Right Lower Middle) -->
-  <g class="float-l3" transform="translate(1095, 145)">
+  <!-- 10. GIT LOGO -->
+  <g transform="translate(1040, 125)">
     <rect x="0" y="0" width="44" height="44" rx="12" fill="#F05032" stroke="#FFFFFF" stroke-width="1.2" transform="rotate(45 22 22)" />
     <g transform="translate(10, 10) scale(0.7)">
       <circle cx="12" cy="8" r="3" fill="#FFFFFF" />
@@ -290,17 +208,20 @@
       <circle cx="24" cy="18" r="3" fill="#FFFFFF" />
       <path d="M 12 11 L 12 23 M 12 14 Q 20 14 24 15" stroke="#FFFFFF" stroke-width="2.5" fill="none" />
     </g>
+    <text x="54" y="27" font-family="'Fira Code', monospace" font-size="13" font-weight="700" fill="#FCA5A5">Git Dev</text>
   </g>
 
-  <!-- 11. AWS CLOUD LOGO (Right Bottom) -->
-  <g class="float-l6" transform="translate(935, 260)">
+  <!-- 11. AWS LOGO -->
+  <g transform="translate(930, 205)">
     <circle cx="22" cy="22" r="22" fill="rgba(10, 15, 25, 0.85)" stroke="#FF9900" stroke-width="1.5" />
     <text x="22" y="27" text-anchor="middle" font-family="'Inter', sans-serif" font-weight="900" font-size="12" fill="#FF9900">AWS</text>
+    <text x="52" y="27" font-family="'Fira Code', monospace" font-size="13" font-weight="700" fill="#FDBA74">AWS Cloud</text>
   </g>
 
-  <!-- 12. TAILWIND CSS LOGO (Right Outer Bottom) -->
-  <g class="float-l5" transform="translate(1085, 265)">
+  <!-- 12. TAILWIND LOGO -->
+  <g transform="translate(1050, 205)">
     <circle cx="22" cy="22" r="22" fill="rgba(10, 15, 25, 0.85)" stroke="#06B6D4" stroke-width="1.5" />
     <path d="M 11 20 C 13 14 17 14 19 16 C 21 18 23 20 27 20 C 31 20 33 16 33 16 C 31 22 27 22 25 20 C 23 18 21 16 17 16 C 13 16 11 20 11 20 Z" fill="#06B6D4" />
+    <text x="52" y="27" font-family="'Fira Code', monospace" font-size="13" font-weight="700" fill="#67E8F9">Tailwind</text>
   </g>
 </svg>
