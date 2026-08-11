@@ -32,13 +32,13 @@ Welcome to my digital workspace! I'm **Epun Manula**, a Computer Science Undergr
 - 🔗 **Bio & Social Links Hub:** **[epunmanula.com/bio](https://epunmanula.com/bio)**
 - ✉️ **Direct Email:** **[dev@epunmanula.com](mailto:dev@epunmanula.com)**
 - 🎓 **Education & Focus:** Computer Science undergraduate specializing in full-stack architecture, clean backend APIs, and human-centered UI design.
-- 🔭 **Currently Building & Scaling:**
+- 🔭 **Featured Solutions & Works:**
   - 🎮 [**Havoc Gaming Platform**](https://epunmanula.com/projects) — Next.js, TypeScript, & Supabase real-time esports ecosystem.
-  - 🧩 [**EMME Tabs**](https://epunmanula.com/projects) — Premium glassmorphism Chrome new-tab dashboard with custom canvas visualizers.
+  - 🧩 [**EMME Tabs**](https://epunmanula.com/projects) — Glassmorphism Chrome new-tab dashboard with custom canvas visualizers.
   - 🛡️ [**PrivacyBlur AI**](https://epunmanula.com/projects) — Privacy-first browser tool blurring faces locally via WebAssembly BlazeFace AI.
   - 📊 [**MHabit Tracker**](https://epunmanula.com/projects) — Unified habit & focus ecosystem (Web, Electron Desktop, & Android WebView).
   - 🎧 [**EMME Audio EQ Extension**](https://epunmanula.com/projects) — 10-Band Chrome audio equalizer & 3D spatial enhancer using Manifest V3 Offscreen DSP.
-  - ⚡ [**EmmE Video Speed Master**](https://emmevideospeedmaster.page.gd/) — Chrome extension for granular HTML5 playback speed control with global hotkeys.
+  - ⚡ [**EmmE Video Speed Master**](https://emmevideospeedmaster.page.gd/) — Granular HTML5 playback speed controller with global hotkeys.
 - 🎵 **Creative Work:** Independent Music Producer streaming across [Spotify](https://open.spotify.com/artist/2a5KgbDfSYmIWh6MpQB9ev), Apple Music, & SoundCloud.
 - ⚡ **Fun Fact:** I love bridging complex backend logic with smooth micro-animations and custom audio DSP algorithms!
 
@@ -64,93 +64,9 @@ Welcome to my digital workspace! I'm **Epun Manula**, a Computer Science Undergr
 
 <div align="center">
   <a href="https://github.com/epunmanula"><img src="https://img.shields.io/badge/Total_Contributions-2%2C300%2B_Commits-1DB954?style=for-the-badge&logo=github&logoColor=white" alt="Contributions" /></a>
-  <a href="https://github.com/epunmanula"><img src="https://img.shields.io/badge/Daily_Streak-Active-000000?style=for-the-badge&logo=github&logoColor=1DB954" alt="Streak" /></a>
+  <a href="https://github.com/epunmanula"><img src="https://github.com/epunmanula"><img src="https://img.shields.io/badge/Daily_Streak-Active-000000?style=for-the-badge&logo=github&logoColor=1DB954" alt="Streak" /></a>
   <a href="https://github.com/epunmanula"><img src="https://komarev.com/ghpvc/?username=epunmanula&color=1db954&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile Views" /></a>
 </div>
-
----
-
-### 🚀 Featured Projects & Web Solutions
-
-<table align="center" border="0" cellpadding="10" cellspacing="0" width="100%">
-  <tr>
-    <td width="50%" valign="top">
-      <h4>🎮 <a href="https://epunmanula.com/projects">Havoc Gaming Platform</a></h4>
-      <p>Next-generation esports gaming website built with Next.js, TypeScript, and Supabase. Features dark neon glassmorphism UI, real-time match tracking, and esports news feeds.</p>
-      <a href="https://epunmanula.com/projects"><img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white" /></a>
-      <a href="https://epunmanula.com/projects"><img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" /></a>
-      <a href="https://epunmanula.com/projects"><img src="https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white" /></a>
-    </td>
-    <td width="50%" valign="top">
-      <h4>🧩 <a href="https://epunmanula.com/projects">EMME Tabs Extension</a></h4>
-      <p>Premium Google Chrome extension replacing default new tab pages with a glassmorphism dashboard, dynamic canvas visualizers, widgets, and productivity stats.</p>
-      <a href="https://epunmanula.com/projects"><img src="https://img.shields.io/badge/Chrome_Extension-4285F4?style=flat-square&logo=googlechrome&logoColor=white" /></a>
-      <a href="https://epunmanula.com/projects"><img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" /></a>
-      <a href="https://epunmanula.com/projects"><img src="https://img.shields.io/badge/Glassmorphism-7C3AED?style=flat-square" /></a>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h4>🛡️ <a href="https://epunmanula.com/projects">PrivacyBlur AI</a></h4>
-      <p>Privacy-first web application that blurs or pixelates faces in photos 100% locally inside the browser using MediaPipe BlazeFace AI on WebAssembly (Wasm).</p>
-      <a href="https://epunmanula.com/projects"><img src="https://img.shields.io/badge/WebAssembly-654FF0?style=flat-square&logo=webassembly&logoColor=white" /></a>
-      <a href="https://epunmanula.com/projects"><img src="https://img.shields.io/badge/BlazeFace_AI-FF6F00?style=flat-square&logo=tensorflow&logoColor=white" /></a>
-      <a href="https://epunmanula.com/projects"><img src="https://img.shields.io/badge/Privacy_First-1DB954?style=flat-square" /></a>
-    </td>
-    <td width="50%" valign="top">
-      <h4>📊 <a href="https://epunmanula.com/projects">MHabit Tracker Ecosystem</a></h4>
-      <p>Unified habits & focus tracking ecosystem spanning Web, Electron Desktop Client, and Android WebView app with Pomodoro timers and Chart.js analytics.</p>
-      <a href="https://epunmanula.com/projects"><img src="https://img.shields.io/badge/Electron-47848F?style=flat-square&logo=electron&logoColor=white" /></a>
-      <a href="https://epunmanula.com/projects"><img src="https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=android&logoColor=white" /></a>
-      <a href="https://epunmanula.com/projects"><img src="https://img.shields.io/badge/Chart.js-FF6384?style=flat-square&logo=chart.js&logoColor=white" /></a>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h4>🎧 <a href="https://epunmanula.com/projects">EMME Audio EQ Extension</a></h4>
-      <p>High-fidelity Chrome Audio Equalizer with 10-Band EQ, Bass Boost, & 3D Spatial Enhancer running zero-latency local DSP via Manifest V3 Offscreen Documents.</p>
-      <a href="https://epunmanula.com/projects"><img src="https://img.shields.io/badge/Manifest_V3-4285F4?style=flat-square&logo=googlechrome&logoColor=white" /></a>
-      <a href="https://epunmanula.com/projects"><img src="https://img.shields.io/badge/WebAudio_API-1DB954?style=flat-square" /></a>
-      <a href="https://epunmanula.com/projects"><img src="https://img.shields.io/badge/Offscreen_DSP-000000?style=flat-square" /></a>
-    </td>
-    <td width="50%" valign="top">
-      <h4>⚡ <a href="https://emmevideospeedmaster.page.gd/">EmmE Video Speed Master</a></h4>
-      <p>Lightweight Chrome extension offering absolute control over HTML5 video playback speeds with customizable global hotkey shortcuts on YouTube, Netflix, & any web video.</p>
-      <a href="https://emmevideospeedmaster.page.gd/"><img src="https://img.shields.io/badge/Chrome_Extension-4285F4?style=flat-square&logo=googlechrome&logoColor=white" /></a>
-      <a href="https://emmevideospeedmaster.page.gd/"><img src="https://img.shields.io/badge/HTML5_Video_API-E34F26?style=flat-square&logo=html5&logoColor=white" /></a>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h4>🎟️ <a href="https://umsltickets.online/">UMSLTickets Platform</a></h4>
-      <p>Full-stack custom online ticket booking platform with real-time seat tracking, MySQL database backend, admin dashboard, and secure payment processing.</p>
-      <a href="https://umsltickets.online/"><img src="https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white" /></a>
-      <a href="https://umsltickets.online/"><img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" /></a>
-      <a href="https://umsltickets.online/"><img src="https://img.shields.io/badge/Payment_Gateway-000000?style=flat-square" /></a>
-    </td>
-    <td width="50%" valign="top">
-      <h4>📚 <a href="https://techseteka.gt.tc/">TechSet LMS & Portal</a></h4>
-      <p>Dedicated LMS, business portal, and resource dashboard built specifically for G.C.E A/L Technology students in Sri Lanka.</p>
-      <a href="https://techseteka.gt.tc/"><img src="https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white" /></a>
-      <a href="https://techseteka.gt.tc/"><img src="https://img.shields.io/badge/LMS-1DB954?style=flat-square" /></a>
-      <a href="https://techseteka.gt.tc/"><img src="https://img.shields.io/badge/EdTech-3B82F6?style=flat-square" /></a>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h4>🌐 <a href="https://emmefocus.gt.tc/">EM Me Focus</a></h4>
-      <p>Distraction-free productivity web app featuring a Pomodoro focus timer, ambient focus sound modes, and zero-login local task session tracking.</p>
-      <a href="https://emmefocus.gt.tc/"><img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" /></a>
-      <a href="https://emmefocus.gt.tc/"><img src="https://img.shields.io/badge/Productivity-8B5CF6?style=flat-square" /></a>
-    </td>
-    <td width="50%" valign="top">
-      <h4>🏋️ <a href="https://epunmanula.com/projects">Oxy Fitness Portal</a></h4>
-      <p>Dynamic fitness management web platform built with custom PHP backend and MySQL database for user management, workout plans, and responsive UI.</p>
-      <a href="https://epunmanula.com/projects"><img src="https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white" /></a>
-      <a href="https://epunmanula.com/projects"><img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" /></a>
-    </td>
-  </tr>
-</table>
 
 ---
 
