@@ -47,27 +47,16 @@ Welcome to my digital workspace! I'm **Epun Manula**, a Computer Science Undergr
 ### 📊 GitHub Activity & Metrics
 
 <div align="center">
-  <table border="0">
-    <tr>
-      <td align="center" valign="top">
-        <a href="https://github.com/epunmanula">
-          <img src="https://github-readme-stats.vercel.app/api?username=epunmanula&show_icons=true&theme=tokyonight&count_private=true&include_all_commits=true&hide_border=true&title_color=1DB954&icon_color=1DB954&text_color=94A3B8&bg_color=0D1117" alt="Epun Manula GitHub Stats" height="170" />
-        </a>
-      </td>
-      <td align="center" valign="top">
-        <a href="https://github.com/epunmanula">
-          <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=epunmanula&layout=compact&theme=tokyonight&hide=html,css&hide_border=true&title_color=1DB954&text_color=94A3B8&bg_color=0D1117" alt="Top Languages" height="170" />
-        </a>
-      </td>
-    </tr>
-  </table>
+  <a href="https://github.com/epunmanula">
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=epunmanula&theme=react-dark&hide_border=true" alt="Epun Manula GitHub Activity Graph" width="100%" />
+  </a>
 </div>
 
 <br/>
 
 <div align="center">
   <a href="https://github.com/epunmanula">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=epunmanula&theme=tokyonight&hide_border=true&background=0D1117&ring=1DB954&fire=1DB954&currStreakLabel=1DB954" alt="GitHub Streak" width="95%" />
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=epunmanula&theme=tokyonight&hide_border=true&background=0D1117&ring=1DB954&fire=1DB954&currStreakLabel=1DB954" alt="GitHub Streak Stats" width="95%" />
   </a>
 </div>
 
@@ -150,7 +139,7 @@ Welcome to my digital workspace! I'm **Epun Manula**, a Computer Science Undergr
       <h4>🏋️ <a href="https://epunmanula.com/projects">Oxy Fitness Portal</a></h4>
       <p>Dynamic fitness management web platform built with custom PHP backend and MySQL database for user management, workout plans, and responsive UI.</p>
       <a href="https://epunmanula.com/projects"><img src="https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white" /></a>
-      <a href="https://epunmanula.com/projects"><img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" /></a>
+      <a href="https://epunmanula.com/projects"><img src="https://epunmanula.com/projects"><img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" /></a>
     </td>
   </tr>
 </table>
