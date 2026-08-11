@@ -6,13 +6,13 @@
 
 <div align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=16&pause=1000&color=1DB954&center=true&vCenter=true&width=620&lines=%3E_root%40epunmanula%3A~%24+system.init()%3B;%3E_Executing+script%3A+Full_Stack_Dev.sh...;%3E_Loading+Tech_Stack%3A+React_Next_PHP_Wasm...;%3E_Connection+Secure.+Access+Granted." alt="Terminal Boot SVG" />
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=17&pause=1000&color=1DB954&center=true&vCenter=true&width=620&lines=%3E_root%40epunmanula%3A~%24+system.init()%3B;%3E_Executing+script%3A+Full_Stack_Dev.sh...;%3E_Loading+Tech_Stack%3A+React_Next_PHP_Wasm...;%3E_Connection+Secure.+Access+Granted." alt="Terminal Boot SVG" />
   </a>
 </div>
 
 <p align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=22&pause=1500&color=ffffff&center=true&vCenter=true&width=650&lines=Crafting+Digital+Experiences;Architecting+Web+Solutions;Full-Stack+Engineering;Computer+Science+Undergraduate;Tech+Entrepreneur+%26+Music+Producer" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=800&size=23&pause=1500&color=FFFFFF&center=true&vCenter=true&width=650&lines=Crafting+Digital+Experiences;Architecting+Web+Solutions;Full-Stack+Engineering;Computer+Science+Undergraduate;Tech+Entrepreneur+%26+Music+Producer" alt="Typing SVG" />
   </a>
 </p>
 
@@ -44,11 +44,11 @@ Welcome to my digital workspace! I'm **Epun Manula**, a Computer Science Undergr
 
 ---
 
-### 📊 GitHub Activity & Metrics
+### 🟢 ⬛ ⚪ GitHub Signature Analytics (Custom Green • Black • White)
 
 <div align="center">
   <a href="https://github.com/epunmanula">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=epunmanula&theme=react-dark&hide_border=true" alt="Epun Manula GitHub Activity Graph" width="100%" />
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=epunmanula&bg_color=0D1117&color=1DB954&line=1DB954&point=FFFFFF&area=true&area_color=1DB954&title_color=1DB954&text_color=FFFFFF&axis_color=334155&hide_border=true" alt="Epun Manula Custom Activity Graph" width="100%" />
   </a>
 </div>
 
@@ -56,8 +56,16 @@ Welcome to my digital workspace! I'm **Epun Manula**, a Computer Science Undergr
 
 <div align="center">
   <a href="https://github.com/epunmanula">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=epunmanula&theme=tokyonight&hide_border=true&background=0D1117&ring=1DB954&fire=1DB954&currStreakLabel=1DB954" alt="GitHub Streak Stats" width="95%" />
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=epunmanula&background=0D1117&stroke=1DB954&ring=1DB954&fire=1DB954&currStreakLabel=1DB954&currStreakNum=FFFFFF&sideNums=FFFFFF&sideLabels=1DB954&dates=94A3B8&hide_border=true" alt="Epun Manula Custom Streak Stats" width="100%" />
   </a>
+</div>
+
+<br/>
+
+<div align="center">
+  <a href="https://github.com/epunmanula"><img src="https://img.shields.io/badge/Total_Contributions-2%2C300%2B_Commits-1DB954?style=for-the-badge&logo=github&logoColor=white" alt="Contributions" /></a>
+  <a href="https://github.com/epunmanula"><img src="https://img.shields.io/badge/Daily_Streak-Active-000000?style=for-the-badge&logo=github&logoColor=1DB954" alt="Streak" /></a>
+  <a href="https://github.com/epunmanula"><img src="https://komarev.com/ghpvc/?username=epunmanula&color=1db954&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile Views" /></a>
 </div>
 
 ---
@@ -139,7 +147,7 @@ Welcome to my digital workspace! I'm **Epun Manula**, a Computer Science Undergr
       <h4>🏋️ <a href="https://epunmanula.com/projects">Oxy Fitness Portal</a></h4>
       <p>Dynamic fitness management web platform built with custom PHP backend and MySQL database for user management, workout plans, and responsive UI.</p>
       <a href="https://epunmanula.com/projects"><img src="https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white" /></a>
-      <a href="https://epunmanula.com/projects"><img src="https://epunmanula.com/projects"><img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" /></a>
+      <a href="https://epunmanula.com/projects"><img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" /></a>
     </td>
   </tr>
 </table>
@@ -239,12 +247,6 @@ In addition to engineering software, I am an active music producer creating elec
 
 <br/>
 
-<div align="center">
-  <img src="https://komarev.com/ghpvc/?username=epunmanula&color=1db954&style=flat-square&label=PROFILE+VIEWS" alt="Profile Views" />
-</div>
-
-<br/>
-
 <p align="center">
-  <sub>Crafted with engineering precision &amp; passion by <b>Epun Manula</b> 🇱🇰</sub>
+  <sub>Crafted with engineering precision &amp; signature Green-Black-White aesthetics by <b>Epun Manula</b> 🇱🇰</sub>
 </p>
