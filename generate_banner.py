@@ -14,8 +14,8 @@ elif os.path.exists(png_logo_path):
 else:
     logo_b64 = ""
 
-out_path_1 = os.path.join(dir_path, "epun-manula-banner.svg")
-out_path_2 = r"c:\em\web\reeme\epun-manula-banner.svg"
+out_path_1 = os.path.join(dir_path, "epun-manula-animated-banner.svg")
+out_path_2 = r"c:\em\web\reeme\epun-manula-animated-banner.svg"
 
 svg_template = f'''<svg width="1200" height="340" viewBox="0 0 1200 340" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <defs>
@@ -48,6 +48,52 @@ svg_template = f'''<svg width="1200" height="340" viewBox="0 0 1200 340" fill="n
       <feGaussianBlur stdDeviation="15" result="blur" />
       <feComposite in="SourceGraphic" in2="blur" operator="over" />
     </filter>
+
+    <style>
+      @keyframes spinOrbit {{
+        0% {{ transform: rotate(0deg); }}
+        100% {{ transform: rotate(360deg); }}
+      }}
+      @keyframes spinLogo {{
+        0% {{ transform: rotate(0deg); }}
+        100% {{ transform: rotate(360deg); }}
+      }}
+      @keyframes nameGlow {{
+        0%, 100% {{
+          fill: #FFFFFF;
+          filter: drop-shadow(0px 0px 4px rgba(29, 185, 84, 0.3));
+        }}
+        50% {{
+          fill: #E2F9EE;
+          filter: drop-shadow(0px 0px 18px rgba(29, 185, 84, 0.95)) drop-shadow(0px 0px 28px rgba(16, 185, 129, 0.7));
+        }}
+      }}
+      @keyframes badgePulse {{
+        0%, 100% {{
+          stroke-opacity: 0.4;
+          fill-opacity: 0.12;
+        }}
+        50% {{
+          stroke-opacity: 0.8;
+          fill-opacity: 0.25;
+        }}
+      }}
+      
+      .logo-orbit {{
+        transform-origin: 600px 55px;
+        animation: spinOrbit 12s linear infinite;
+      }}
+      .logo-image-group {{
+        transform-origin: 600px 55px;
+        animation: spinLogo 24s linear infinite;
+      }}
+      .animated-title {{
+        animation: nameGlow 3.5s ease-in-out infinite;
+      }}
+      .cyber-badge {{
+        animation: badgePulse 3s ease-in-out infinite;
+      }}
+    </style>
   </defs>
 
   <!-- Background Base Canvas -->
@@ -57,7 +103,7 @@ svg_template = f'''<svg width="1200" height="340" viewBox="0 0 1200 340" fill="n
   <!-- Ambient Glowing Orbs -->
   <circle cx="180" cy="170" r="180" fill="#1DB954" opacity="0.18" filter="url(#blur-glow)" />
   <circle cx="1020" cy="170" r="180" fill="#10B981" opacity="0.14" filter="url(#blur-glow)" />
-  <circle cx="600" cy="65" r="120" fill="#1DB954" opacity="0.12" filter="url(#blur-glow)" />
+  <circle cx="600" cy="65" r="120" fill="#1DB954" opacity="0.15" filter="url(#blur-glow)" />
 
   <!-- Outer Cyber Neon Border -->
   <rect x="1" y="1" width="1198" height="338" rx="15" fill="none" stroke="url(#emerald-glow)" stroke-opacity="0.4" stroke-width="2" />
@@ -133,25 +179,39 @@ svg_template = f'''<svg width="1200" height="340" viewBox="0 0 1200 340" fill="n
   </g>
 
   <!-- CENTER MAIN CONTENT -->
-  <!-- 1. EMBEDDED LOGO -->
-  <g transform="translate(565, 20)">
-    <circle cx="35" cy="35" r="36" fill="rgba(29, 185, 84, 0.2)" filter="url(#blur-glow)" />
-    <circle cx="35" cy="35" r="33" fill="#04070D" stroke="url(#emerald-glow)" stroke-width="1.8" />
-    <image href="data:image/png;base64,{logo_b64}" xlink:href="data:image/png;base64,{logo_b64}" x="5" y="5" width="60" height="60" />
+  <!-- 1. EMBEDDED ANIMATED ROTATING LOGO -->
+  <g transform="translate(0, 0)">
+    <!-- Glowing Backdrop Circle -->
+    <circle cx="600" cy="55" r="36" fill="rgba(29, 185, 84, 0.22)" filter="url(#blur-glow)" />
+    <circle cx="600" cy="55" r="34" fill="#04070D" stroke="url(#emerald-glow)" stroke-width="1.8" />
+    
+    <!-- Rotating Orbit Ring with Tech Nodes -->
+    <g class="logo-orbit">
+      <circle cx="600" cy="55" r="42" fill="none" stroke="#1DB954" stroke-width="1.5" stroke-dasharray="10 8 4 8" opacity="0.8" />
+      <circle cx="600" cy="13" r="3.5" fill="#1DB954" />
+      <circle cx="642" cy="55" r="2.5" fill="#10B981" />
+      <circle cx="600" cy="97" r="3.5" fill="#059669" />
+      <circle cx="558" cy="55" r="2.5" fill="#3B82F6" />
+    </g>
+
+    <!-- Rotating Logo Image -->
+    <g class="logo-image-group">
+      <image href="data:image/png;base64,{logo_b64}" xlink:href="data:image/png;base64,{logo_b64}" x="570" y="25" width="60" height="60" />
+    </g>
   </g>
 
   <g transform="translate(320, 0)">
     <!-- Protocol Status Badge with Subtle Binary -->
     <g transform="translate(125, 106)">
-      <rect x="0" y="0" width="310" height="24" rx="12" fill="rgba(29, 185, 84, 0.12)" stroke="#1DB954" stroke-opacity="0.4" />
+      <rect class="cyber-badge" x="0" y="0" width="310" height="24" rx="12" fill="rgba(29, 185, 84, 0.12)" stroke="#1DB954" stroke-opacity="0.4" />
       <circle cx="14" cy="12" r="3.5" fill="#1DB954" />
       <text x="26" y="16" font-family="'Fira Code', monospace" font-size="11" font-weight="700" fill="#A7F3D0">
         SYSTEM.DECODE // 01000101 01010000
       </text>
     </g>
 
-    <!-- Main Title Name -->
-    <text x="280" y="172" text-anchor="middle" font-family="'Inter', 'Segoe UI', sans-serif" font-weight="900" font-size="46" letter-spacing="6" fill="#FFFFFF">
+    <!-- Main Title Name with Animated Glow -->
+    <text x="280" y="172" class="animated-title" text-anchor="middle" font-family="'Inter', 'Segoe UI', sans-serif" font-weight="900" font-size="46" letter-spacing="6" fill="#FFFFFF">
       EPUN MANULA
     </text>
 
@@ -245,4 +305,4 @@ if os.path.exists(os.path.dirname(out_path_2)):
     with open(out_path_2, "w", encoding="utf-8") as f:
         f.write(svg_template)
 
-print("Standard compliant SVG banner updated and generated successfully!")
+print("Animated SVG banner generated successfully!")
