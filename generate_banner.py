@@ -14,8 +14,8 @@ elif os.path.exists(png_logo_path):
 else:
     logo_b64 = ""
 
-out_path_1 = os.path.join(dir_path, "epun-manula-vibrant-banner.svg")
-out_path_2 = r"c:\em\web\reeme\epun-manula-vibrant-banner.svg"
+out_path_1 = os.path.join(dir_path, "epun-manula-banner.svg")
+out_path_2 = r"c:\em\web\reeme\epun-manula-banner.svg"
 
 svg_template = f'''<svg width="1200" height="340" viewBox="0 0 1200 340" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <defs>
