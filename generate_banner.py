@@ -14,8 +14,8 @@ elif os.path.exists(png_logo_path):
 else:
     logo_b64 = ""
 
-out_path_1 = os.path.join(dir_path, "epun-manula-animated-banner.svg")
-out_path_2 = r"c:\em\web\reeme\epun-manula-animated-banner.svg"
+out_path_1 = os.path.join(dir_path, "epun-manula-3d-banner.svg")
+out_path_2 = r"c:\em\web\reeme\epun-manula-3d-banner.svg"
 
 svg_template = f'''<svg width="1200" height="340" viewBox="0 0 1200 340" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <defs>
@@ -50,13 +50,10 @@ svg_template = f'''<svg width="1200" height="340" viewBox="0 0 1200 340" fill="n
     </filter>
 
     <style>
-      @keyframes spinOrbit {{
-        0% {{ transform: rotate(0deg); }}
-        100% {{ transform: rotate(360deg); }}
-      }}
-      @keyframes spinLogo {{
-        0% {{ transform: rotate(0deg); }}
-        100% {{ transform: rotate(360deg); }}
+      @keyframes spin3D {{
+        0% {{ transform: perspective(600px) rotateY(0deg); }}
+        50% {{ transform: perspective(600px) rotateY(180deg); }}
+        100% {{ transform: perspective(600px) rotateY(360deg); }}
       }}
       @keyframes nameGlow {{
         0%, 100% {{
@@ -81,11 +78,11 @@ svg_template = f'''<svg width="1200" height="340" viewBox="0 0 1200 340" fill="n
       
       .logo-orbit {{
         transform-origin: 600px 55px;
-        animation: spinOrbit 12s linear infinite;
+        animation: spin3D 8s ease-in-out infinite;
       }}
       .logo-image-group {{
         transform-origin: 600px 55px;
-        animation: spinLogo 24s linear infinite;
+        animation: spin3D 6s ease-in-out infinite;
       }}
       .animated-title {{
         animation: nameGlow 3.5s ease-in-out infinite;
