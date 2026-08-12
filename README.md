@@ -1,12 +1,4 @@
 <div align="center">
-  <a href="https://epunmanula.com" target="_blank">
-    <img src="emlogo.png" width="130" alt="EPUN MANULA Logo" />
-  </a>
-  <br/><br/>
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=800&size=24&pause=1200&color=1DB954&center=true&vCenter=true&width=700&lines=01000101+01010000+01010101+01001110+%5BENCRYPTED_KEY_0x8F%5D;%3E_DECRYPTING_CIPHER_PROTOCOL...+%5B0%25...45%25...99%25%5D;%3E_EPUN+MANULA+%5BACCESS_GRANTED%5D;Software+Engineer+%E2%80%A2+Full-Stack+Developer+%E2%80%A2+Tech+Entrepreneur" alt="Cyber Decode Animation" />
-  </a>
-  <br/><br/>
   <img src="epun-manula-vibrant-banner.svg" alt="EPUN MANULA Banner" width="100%" />
 </div>
 
@@ -115,19 +107,6 @@ Welcome to my digital workspace! I'm **Epun Manula**, a Computer Science Undergr
 
 ---
 
-### 🎵 Music & Audio Streaming
-
-In addition to engineering software, I am an active music producer creating electronic beats and soundtrack compositions. Stream my tracks on major music platforms:
-
-<div align="center">
-  <a href="https://open.spotify.com/artist/2a5KgbDfSYmIWh6MpQB9ev" target="_blank"><img src="https://img.shields.io/badge/Spotify-1DB954?style=for-the-badge&logo=spotify&logoColor=white" alt="Spotify" /></a>
-  <a href="https://geo.music.apple.com/us/artist/epun-manula/1604396947" target="_blank"><img src="https://img.shields.io/badge/Apple_Music-FA243C?style=for-the-badge&logo=apple-music&logoColor=white" alt="Apple Music" /></a>
-  <a href="https://soundcloud.com/epun_manula" target="_blank"><img src="https://img.shields.io/badge/SoundCloud-FF5500?style=for-the-badge&logo=soundcloud&logoColor=white" alt="SoundCloud" /></a>
-  <a href="https://www.deezer.com/artist/156669272" target="_blank"><img src="https://img.shields.io/badge/Deezer-00C7F2?style=for-the-badge&logo=deezer&logoColor=white" alt="Deezer" /></a>
-  <a href="http://www.tidal.com/artist/30140587" target="_blank"><img src="https://img.shields.io/badge/Tidal-000000?style=for-the-badge&logo=tidal&logoColor=white" alt="Tidal" /></a>
-</div>
-
----
 
 ### 🐍 GitHub Contribution Matrix
 
@@ -159,6 +138,3 @@ In addition to engineering software, I am an active music producer creating elec
 
 <br/>
 
-<p align="center">
-  <sub>Crafted with engineering precision &amp; signature Green-Black-White aesthetics by <b>Epun Manula</b> 🇱🇰</sub>
-</p>
