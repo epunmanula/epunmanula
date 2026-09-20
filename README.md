@@ -14,29 +14,61 @@
 
 ### 👨‍💻 About Me & Engineering Philosophy
 
-Welcome to my digital workspace! I'm **Epun Manula**, a Computer Science Undergraduate, Full-Stack Software Engineer, and Tech Entrepreneur from Sri Lanka. I specialize in building high-performance web systems, cloud architectures, browser automation extensions, and client-side WebAssembly AI utilities.
+Welcome to my digital workspace! I'm **Epun Manula**, a Computer Science Undergraduate, Full-Stack Software Engineer, and Tech Entrepreneur from Sri Lanka. I specialize in building high-performance web systems, cloud architectures, browser automation extensions, desktop applications, and client-side WebAssembly AI utilities.
 
 - 🌐 **Official Website & Portfolio:** **[epunmanula.com](https://epunmanula.com)**
 - 🔗 **Bio & Social Links Hub:** **[epunmanula.com/bio](https://epunmanula.com/bio)**
 - ✉️ **Direct Email:** **[dev@epunmanula.com](mailto:dev@epunmanula.com)**
-- 🎓 **Education & Focus:** Computer Science undergraduate specializing in full-stack architecture, clean backend APIs, and human-centered UI design.
-- 🔭 **Featured Solutions & Works:**
-  - 🎮 [**Havoc Gaming Platform**](https://epunmanula.com/projects) — Next.js, TypeScript, & Supabase real-time esports ecosystem.
-  - 🧩 [**EMME Tabs**](https://epunmanula.com/projects) — Glassmorphism Chrome new-tab dashboard with custom canvas visualizers.
-  - 🛡️ [**PrivacyBlur AI**](https://epunmanula.com/projects) — Privacy-first browser tool blurring faces locally via WebAssembly BlazeFace AI.
-  - 📊 [**MHabit Tracker**](https://epunmanula.com/projects) — Unified habit & focus ecosystem (Web, Electron Desktop, & Android WebView).
-  - 🎧 [**EMME Audio EQ Extension**](https://epunmanula.com/projects) — 10-Band Chrome audio equalizer & 3D spatial enhancer using Manifest V3 Offscreen DSP.
-  - ⚡ [**EmmE Video Speed Master**](https://emmevideospeedmaster.page.gd/) — Granular HTML5 playback speed control with global hotkeys.
-- 🎵 **Creative Work:** Independent Music Producer streaming across [Spotify](https://open.spotify.com/artist/2a5KgbDfSYmIWh6MpQB9ev), Apple Music, & SoundCloud.
-- ⚡ **Fun Fact:** I love bridging complex backend logic with smooth micro-animations and custom audio DSP algorithms!
+- 🎓 **Education & Focus:** Computer Science undergraduate specializing in full-stack architecture, clean backend APIs, browser extensions, and human-centered UI design.
+- 🎵 **Creative Work:** Independent Music Producer & Sound Designer streaming across Apple Music & SoundCloud.
+- ⚡ **Engineering Mindset:** Passionate about bridging complex backend logic with smooth micro-animations, client-side AI, and custom audio DSP algorithms!
 
 ---
 
-### 🟢 ⬛ ⚪ GitHub Signature Analytics (Custom Green • Black • White)
+### 🚀 Featured Engineering Solutions & Projects
+
+<br/>
+
+#### 🎮 Full-Stack & Cloud Platforms
+
+| Project | Description | Tech Stack | Quick Links |
+| :--- | :--- | :--- | :---: |
+| **Havoc Gaming Platform** | Real-time esports gaming ecosystem with live match tracking, tournament feeds, and dark neon glassmorphism UI. | `Next.js` `TypeScript` `Supabase` `Tailwind CSS` | [🌐 Live Demo](https://havocgaming.gt.tc/) • [📦 GitHub](https://github.com/epunmanula/Havoc-Gaming-Website) |
+| **UMSL Tickets Platform** | Full-stack online event ticketing platform with real-time seat reservation, admin portal, and mobile-first checkout. | `PHP` `MySQL` `JavaScript` `Bootstrap` | [🌐 Case Study](https://epunmanula.com/projects) • [📦 GitHub](https://github.com/epunmanula) |
+| **Oxy Fitness Gym Platform** | Modern fitness club web portal with secure member authentication, class scheduling, and interactive user dashboard. | `PHP` `MySQL` `JavaScript` `CSS3` | [🌐 Live Demo](https://oxyfitness.gt.tc/) • [📦 GitHub](https://github.com/epunmanula/oxy-fitness-gym-web) |
+| **TechSet Solutions** | Full corporate tech solutions web application with responsive dark aesthetics, automated contact workflow, and SEO. | `PHP` `MySQL` `HTML5` `CSS3` | [🌐 Case Study](https://epunmanula.com/projects) • [📦 GitHub](https://github.com/epunmanula) |
+
+<br/>
+
+#### 🧩 Browser Extensions & Web Tools
+
+| Project | Description | Tech Stack | Quick Links |
+| :--- | :--- | :--- | :---: |
+| **EMME Audio EQ Extension** | High-fidelity 10-Band Chrome audio equalizer & 3D spatial enhancer using Manifest V3 Offscreen DSP across YouTube & web streaming. | `Manifest V3` `Web Audio API` `JavaScript` | [🛒 Chrome Web Store](https://chromewebstore.google.com/detail/ohheeckckfhnhhhhekapdnlcebkbdnbd) • [📦 GitHub](https://github.com/epunmanula) |
+| **EMME Tabs** | Cyber-glassmorphism Chrome new-tab dashboard with custom canvas audio visualizers, quick bookmarks, and productivity widgets. | `Chrome API` `HTML5 Canvas` `CSS3` | [🌐 Live Demo](https://emmetabs.fwh.is/) • [📦 GitHub](https://github.com/epunmanula) |
+| **Video Speed Master** | Precision HTML5 video playback speed controller extension with granular speed stepping and global hotkey shortcuts. | `HTML5 Video API` `JavaScript` `CSS3` | [🌐 Live Demo](https://emmevideospeedmaster.page.gd/) • [📦 GitHub](https://github.com/epunmanula) |
+| **EmmE QR Scanner** | Fast, modern QR code scanner and generator extension for Chrome and Edge with zero-latency camera decoding. | `Chrome API` `JavaScript` `Canvas` | [📦 GitHub](https://github.com/epunmanula) |
+
+<br/>
+
+#### ⚡ Desktop, AI & Productivity Applications
+
+| Project | Description | Tech Stack | Quick Links |
+| :--- | :--- | :--- | :---: |
+| **EmmE Browser** | Production-quality Windows-first Chromium desktop browser engineered for performance, lightweight memory, and user privacy. | `Chromium` `Node.js` `Electron` `C++` | [📦 GitHub](https://github.com/epunmanula) |
+| **PrivacyBlur AI** | Privacy-first browser utility that detects and blurs faces locally in real time using client-side WebAssembly BlazeFace AI. | `Wasm` `BlazeFace AI` `JavaScript` | [🌐 Live Demo](https://privacyblur.42web.io/) • [📦 GitHub](https://github.com/epunmanula) |
+| **MHabit Tracker** | Unified habit formation & focus ecosystem operating smoothly across Web, Desktop (Electron), and Android WebView. | `Electron` `JavaScript` `Android WebView` | [🌐 Live Demo](https://mhabitracker.xo.je) • [📦 GitHub](https://github.com/epunmanula) |
+| **EM.Focus Productivity** | Minimalist distraction-free Pomodoro deep-work timer with ambient soundscapes and session progress analytics. | `PHP` `JavaScript` `Web Audio` | [🌐 Live Demo](https://emmefocus.gt.tc/?i=1) • [📦 GitHub](https://github.com/epunmanula/emmefocus) |
+| **NIBM DSE Academic Hub** | Comprehensive academic portal and Android companion app providing lecture tools, schedule sync, and software engineering utilities. | `React` `Android` `REST API` | [📦 GitHub](https://github.com/epunmanula) |
+
+---
+
+### 🟢 ⬛ ⚪ GitHub Signature Analytics (Custom Emerald • Dark Canvas)
 
 <div align="center">
   <a href="https://github.com/epunmanula">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=epunmanula&bg_color=0D1117&color=1DB954&line=1DB954&point=FFFFFF&area=true&area_color=1DB954&title_color=1DB954&text_color=FFFFFF&axis_color=334155&hide_border=true" alt="Epun Manula Custom Activity Graph" width="100%" />
+    <img src="https://github-stats-extended.vercel.app/api?username=epunmanula&show_icons=true&bg_color=0D1117&title_color=1DB954&text_color=FFFFFF&icon_color=1DB954&border_color=1DB954" alt="Epun Manula GitHub Stats" />
+    <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=epunmanula&layout=compact&bg_color=0D1117&title_color=1DB954&text_color=FFFFFF&border_color=1DB954" alt="Top Languages" />
   </a>
 </div>
 
@@ -44,7 +76,7 @@ Welcome to my digital workspace! I'm **Epun Manula**, a Computer Science Undergr
 
 <div align="center">
   <a href="https://github.com/epunmanula">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=epunmanula&background=0D1117&stroke=1DB954&ring=1DB954&fire=1DB954&currStreakLabel=1DB954&currStreakNum=FFFFFF&sideNums=FFFFFF&sideLabels=1DB954&dates=94A3B8&hide_border=true" alt="Epun Manula Custom Streak Stats" width="100%" />
+    <img src="https://streak-stats.demolab.com/?user=epunmanula&background=0D1117&stroke=1DB954&ring=1DB954&fire=1DB954&currStreakLabel=1DB954&currStreakNum=FFFFFF&sideNums=FFFFFF&sideLabels=1DB954&dates=94A3B8&hide_border=true" alt="Epun Manula Custom Streak Stats" width="100%" />
   </a>
 </div>
 
@@ -73,6 +105,7 @@ Welcome to my digital workspace! I'm **Epun Manula**, a Computer Science Undergr
       <a href="https://epunmanula.com" target="_blank"><img src="https://skillicons.dev/icons?i=react" alt="React" height="40" /></a>
       <a href="https://epunmanula.com" target="_blank"><img src="https://skillicons.dev/icons?i=nextjs" alt="Next.js" height="40" /></a>
       <a href="https://epunmanula.com" target="_blank"><img src="https://skillicons.dev/icons?i=tailwind" alt="Tailwind CSS" height="40" /></a>
+      <a href="https://epunmanula.com" target="_blank"><img src="https://skillicons.dev/icons?i=bootstrap" alt="Bootstrap" height="40" /></a>
     </td>
     <td align="center" valign="top" width="50%">
       <h4>⚙️ Backend & Architecture</h4>
@@ -81,6 +114,7 @@ Welcome to my digital workspace! I'm **Epun Manula**, a Computer Science Undergr
       <a href="https://epunmanula.com" target="_blank"><img src="https://skillicons.dev/icons?i=nodejs" alt="Node.js" height="40" /></a>
       <a href="https://epunmanula.com" target="_blank"><img src="https://skillicons.dev/icons?i=express" alt="Express.js" height="40" /></a>
       <a href="https://epunmanula.com" target="_blank"><img src="https://skillicons.dev/icons?i=py" alt="Python" height="40" /></a>
+      <a href="https://epunmanula.com" target="_blank"><img src="https://skillicons.dev/icons?i=electron" alt="Electron" height="40" /></a>
     </td>
   </tr>
   <tr>
@@ -95,23 +129,23 @@ Welcome to my digital workspace! I'm **Epun Manula**, a Computer Science Undergr
       <a href="https://epunmanula.com" target="_blank"><img src="https://skillicons.dev/icons?i=git" alt="Git" height="40" /></a>
     </td>
     <td align="center" valign="top" width="50%">
-      <h4>🎨 Creative Tools & Audio Workstations</h4>
+      <h4>🎨 Creative Tools & Engineering Workspace</h4>
       <a href="https://epunmanula.com" target="_blank"><img src="https://skillicons.dev/icons?i=figma" alt="Figma" height="40" /></a>
       <a href="https://epunmanula.com" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/canva/canva-original.svg" alt="Canva" height="40" /></a>
       <a href="https://epunmanula.com" target="_blank"><img src="fl-studio.svg" alt="FL Studio" height="40" /></a>
-      <a href="https://epunmanula.com" target="_blank"><img src="https://static.vecteezy.com/system/resources/previews/067/065/640/non_2x/capcut-logo-square-rounded-capcut-logo-capcut-logo-free-download-free-png.png" alt="CapCut" height="40" /></a>
+      <a href="https://epunmanula.com" target="_blank"><img src="capcut.svg" alt="CapCut" height="40" /></a>
       <a href="https://epunmanula.com" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="VS Code" height="40" /></a>
+      <a href="https://epunmanula.com" target="_blank"><img src="https://skillicons.dev/icons?i=postman" alt="Postman" height="40" /></a>
     </td>
   </tr>
 </table>
 
 ---
 
-
 ### 🐍 GitHub Contribution Matrix
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake-dark.svg" alt="Snake Contribution Animation" />
+  <img src="github-contribution-grid-snake-dark.svg" alt="Snake Contribution Animation" width="100%" />
 </div>
 
 ---
@@ -137,4 +171,3 @@ Welcome to my digital workspace! I'm **Epun Manula**, a Computer Science Undergr
 </div>
 
 <br/>
-
